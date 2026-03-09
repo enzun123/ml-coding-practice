@@ -345,4 +345,6 @@ print(str(3))
 
 #x를 리스트로 반환
 print(list("Python"))
-print((1, 2,))
+print((1, 2, 3))
+
+# x 를 튜플로 반호
