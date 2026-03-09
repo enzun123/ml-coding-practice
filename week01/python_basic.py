@@ -301,7 +301,9 @@ def sum1(a, b):
     x = a + b
     return x
 
-\de
+def sum2(*args):
+    x = 0
+    for i i
 # 함수 호출
 a = 5
 b = 3
