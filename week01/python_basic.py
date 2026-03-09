@@ -416,4 +416,6 @@ for i in range(6, 11):
     f.write(data)
 f.close
 
-#파일에 내용 추가하기
+#파일에 내용 추가하기 
+f = open('example.txt', 'w')
+fot 
