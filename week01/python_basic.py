@@ -13,7 +13,7 @@ print(7 % 3)
 print(a // 3)
 print(7 // 3)
 
-s1 = 'Hello python'
+s1 = 'Hello Python'
 print(s1)
 
 s3 ='''hello
