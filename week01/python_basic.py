@@ -431,3 +431,6 @@ while True:
     if not line: break
     print(line)
 f.close
+
+#파일 모드 'r' -readlines()
+f = open('example.txxt')
