@@ -275,17 +275,17 @@ print('i' not in 'Python')
 
 # 아무 것도 하지 않게 설정
 if money >= 10:
-    pass
+  pass
 else:
-    print('저금하자!')
+  print('저금하자!')
     
 """# 4. 반복문"""
 
 # for 반복문1
 test_list = ['one', 'two', 'three']
 for i in test_list:
-    x = i + '!'
-    print(x)
+  x = i + '!'
+  print(x)
     
 # for 반복문2
 number = 0
