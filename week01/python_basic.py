@@ -352,4 +352,4 @@ print(tuple("Python"))
 print(tuple([1, 2, 3]))
 
 # x 의 자료형을 반환
-print(tuple("Python"))
+print(type("abc"))
