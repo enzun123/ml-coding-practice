@@ -137,4 +137,4 @@ print(a)
 a.remove(99)
 print(a)
 
-b = [1, ,2 , 3]
+b = [1 , 2, 3]
