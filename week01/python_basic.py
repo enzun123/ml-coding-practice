@@ -123,7 +123,7 @@ print(a)
 
 #원소 정렬
 b.sort()
-pritn
+pritn(a)
 
 #원소 순서 뒤집기
 a = [3, 4, 1, 9]
@@ -142,3 +142,4 @@ a.remove(99)
 print(a)
 
 b = [1 , 2, 3]
+print(b.pop)
