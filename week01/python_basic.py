@@ -199,4 +199,6 @@ for key in dic.keys():
     
 # value의 리스트 만들기
 print(dic.values())
-print(list(dic.items))
+print(list(dic.values()))
+
+# ket, value
