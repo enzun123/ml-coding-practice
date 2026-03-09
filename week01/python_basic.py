@@ -202,7 +202,7 @@ print(dic.keys())
 print(list(dic.keys()))
 
 for key in dic.keys():
-    print(dic[key])
+  print(dic[key])
     
 # value의 리스트 만들기
 print(dic.values())
@@ -212,7 +212,7 @@ print(list(dic.values()))
 print(dic.items())
 
 for key, value in dic.items():
-    print(key + ":" + value)
+  print(key + ":" + value)
     
 # 원소 삭제 
 dic.clear()
@@ -264,7 +264,7 @@ print(x >= y)
 # 조건의 연결
 money = 1300
 if money >= 1200 and money < 3500:
-    print('버스를 탈 수 있습니다.')
+  print('버스를 탈 수 있습니다.')
 
 # 그룹 자료형의 원소인지 검사하기
 print(1 in [1, 2, 3])
