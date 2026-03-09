@@ -299,4 +299,8 @@ while i < 5:
 # 함수 정의
 def sum1(a, b):
     x = a + b
-    r
+    return x
+# 함수 호출
+a = 5
+b = 3
+print
