@@ -387,4 +387,4 @@ for i in range(5, 20 ,3):
 #입략한 s의 길이를 반환
 len("Python")
 
-pri
+print(sorted([3, 0. 2, 1])))
