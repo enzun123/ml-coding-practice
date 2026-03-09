@@ -41,3 +41,5 @@ print(a[:3])
 print(a[7:-11])
 
 #문자 개수 계산
+a = "Python"
+print(a.c)
