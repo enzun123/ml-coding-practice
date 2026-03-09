@@ -233,3 +233,8 @@ print(s2.difference(s3))
 print(s3.difference(s2))
 
 #원소 한 개 추가  
+s2.add(7)
+print(s2)
+
+#원소 여러 개 추가
+s2.update([])
