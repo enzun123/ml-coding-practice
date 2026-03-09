@@ -35,7 +35,7 @@ print(a[4])
 print(a[-1])
 print(a[-2])
 
-#문자열 슬라이싱
+# 문자열 슬라이싱
 b = a[0] + a[1] + a[2]
 print(b)
 
@@ -44,17 +44,17 @@ print(a[19:])
 print(a[:3])
 print(a[7:-11])
 
-#문자 개수 계산
+# 문자 개수 계산
 a = "Python"
 print(a.count('p'))
 
-#문자 위치 확인
+# 문자 위치 확인
 print(a.find('y'))
 print(a.find('p'))
 print(a.index('y'))
-#print(a.index('p)) # 오류 발생
+# print(a.index('p)) # 오류 발생
 
-#문자 삽입
+# 문자 삽입
 b= ","
 c = b.join('Abcd')
 print(c)
