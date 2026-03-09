@@ -437,3 +437,4 @@ f = open('example.txt', 'r')
 lines = f.readlines()
 print(lines)
 
+for line in lines
