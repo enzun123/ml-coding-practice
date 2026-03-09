@@ -42,4 +42,7 @@ print(a[7:-11])
 
 #문자 개수 계산
 a = "Python"
-print(a.c)
+print(a.count('p'))
+
+#문자 위치 확인
+print
