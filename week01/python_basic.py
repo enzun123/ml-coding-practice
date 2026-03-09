@@ -397,4 +397,6 @@ import urllib.request
 urllib.request.Request('http://www.sunmoon.ac.kr')
 
 import pandas
-pandas.DataFrame
+pandas.DataFrame()
+
+from da
