@@ -97,5 +97,5 @@ print(d[0:3])
 
 #리스트 연결
 print(a + b)
-print(b[0] + " hi_ ^^;")
-#print(a[0] + "hi_")
+print(b[0] + " hi~ ^^;")
+#print(a[0] + "hi~ ^^;")   #오류발생
