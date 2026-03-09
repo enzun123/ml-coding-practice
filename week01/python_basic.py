@@ -300,9 +300,12 @@ while i < 5:
 def sum1(a, b):
     x = a + b
     return x
+
+\de
 # 함수 호출
 a = 5
 b = 3
 print(sum1(a, b))
 print(sum1(3, 5))
-print(sum2(1, 2), 3)
+print(sum2(1, 2, 3, 4, 5))
+print
