@@ -10,7 +10,7 @@ print(a % b)
 print(7 % 3)
 
 # 나눗셈 몫 구하기
-print(a // 3)
+print(a // b)
 print(7 // 3)
 
 s1 = 'Hello Python'
