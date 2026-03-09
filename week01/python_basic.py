@@ -377,11 +377,11 @@ print(min("Python"))
 # x의 y제곱 결과값 반환
 print(pow(2, 4))
 
-#사용자 입력으로 받은 값을 문자열로 반환1
+# 사용자 입력으로 받은 값을 문자열로 반환1
 c = input("값을 입력해주세요:")
 print(c)
 
-#사용자 입력으로 받는 값을 문자열로 반환2
+# 사용자 입력으로 받는 값을 문자열로 반환2
 c = input("정수를 입력하세요: ")
 print(c)
 
@@ -401,7 +401,7 @@ print(sorted([3, 0, 2, 1]))
 print(sorted('Python'))
 
 # 패키지, 모듈 사용
-# Request('http://www.sunmoon.ac.kr'). # 오류 발생 
+# Request('http://www.sunmoon.ac.kr') # 오류 발생 
 
 import urllib.request
 urllib.request.Request('http://www.sunmoon.ac.kr')
