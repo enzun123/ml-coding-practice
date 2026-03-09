@@ -2,10 +2,10 @@ a = 3
 b = 4
 
 #지수승
-print(a % b)
-print(7 & 3)
+print(a ** b)
+print(7 ** 3)
 
-#나머지 연산
+#나눗셈 몫
 print(a // 3)
 print(7 // 3)
 
