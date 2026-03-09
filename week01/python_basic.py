@@ -102,7 +102,7 @@ print(d[0:3])
 # 리스트 연결
 print(a + b)
 print(b[0] + " hi~ ^^;")
-# print(a[0] + "hi~ ^^;")   #오류발생
+# print(a[0] + "hi~ ^^;")   # 오류발생
 
 # 리스트 반복
 print(a * 3)
@@ -145,7 +145,7 @@ print(a)
 a.remove(99)
 print(a)
 
-b = [1 , 2, 3]
+b = [1, 2, 3]
 print(b.pop())
 print(b)
 
