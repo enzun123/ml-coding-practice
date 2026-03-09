@@ -16,7 +16,7 @@ print(7 // 3)
 s1 = 'Hello Python'
 print(s1)
 
-s3 ='''hello
+s3 = '''hello
 python'''
 print(s3)
 
