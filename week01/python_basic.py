@@ -297,3 +297,4 @@ while i < 5:
     print('*' * i)
 
 # 함수 정의
+def sum1(a, b)
