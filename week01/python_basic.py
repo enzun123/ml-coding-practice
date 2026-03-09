@@ -353,3 +353,6 @@ print(tuple([1, 2, 3]))
 
 # x 의 자료형을 반환
 print(type("abc"))
+print(type(a))
+
+# 간단한 삽입형 함수 생성
