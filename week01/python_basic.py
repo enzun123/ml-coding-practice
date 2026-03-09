@@ -23,3 +23,6 @@ print(head + tall)
 #문자열 곱하기
 print(head * 2)
 print("=" * 5)
+
+#문자열 인덱싱
+a = "Now is be"
