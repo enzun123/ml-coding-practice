@@ -194,4 +194,7 @@ print(dic['name'])
 print(dic.keys())
 print(list(dic.keys()))
 
-for key in dic
+for key in dic.keys():
+    print(dic[key])
+    
+# value 
