@@ -264,4 +264,6 @@ print(1 in [1, 2, 3])
 print(x in [1, 2, 3])
 print(x not in [1, 2, 3])
 print('a' in ['a', 'b', 'c', 'd'])
-print('')
+print('i' not in 'Python')
+
+#아무것도 하지 않게
