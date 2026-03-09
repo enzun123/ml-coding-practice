@@ -260,3 +260,5 @@ if money >=1200 and money <3500:
     print("버스를 탈수 있습니다.")
 
 #그룹 자료형의 원소인지 검사하기
+print(1 in [1, 2, 3])
+print
