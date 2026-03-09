@@ -188,4 +188,7 @@ print(dic)
 
 #원소의 value 구하기
 print(dic['phone'])
-print(dic)
+print(dic['name'])
+
+# key의 리스트 만들기
+print(dic.key)
