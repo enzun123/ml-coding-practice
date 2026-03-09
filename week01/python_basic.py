@@ -201,4 +201,7 @@ for key in dic.keys():
 print(dic.values())
 print(list(dic.values()))
 
-# ket, value
+# key, value 쌍 구하기
+print(dic.items())
+
+for key, valu
