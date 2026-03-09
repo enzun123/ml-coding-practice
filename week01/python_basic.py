@@ -74,7 +74,7 @@ a ="Pithon"
 # a[1] = 'y'   #오류 발생
 
 # 문자열 바꾸기
-a = "Pyhon is difficult"
+a = "Python is difficult"
 print(a.replace("difficult",  "funny"))
 print(a)
 
@@ -89,7 +89,7 @@ print(b.split(','))
 a = [1, 2, 3]
 b = ['Life', 'is', 'too', 'short']
 c = [1, 2, 'Life', 'is']
-d = [1, 2, [3, 4], ['Little', 'is']]
+d = [1, 2, [3, 4], ['Life', 'is']]
 
 #리스트 인덱싱
 print(d[0])
