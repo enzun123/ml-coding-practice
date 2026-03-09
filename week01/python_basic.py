@@ -391,4 +391,6 @@ print(sorted([3, 0, 2, 1]))
 print(sorted('Python'))
 
 #패키지, 모듈 사용
-#Request(http://.sunmoon.ac.kr)
+#Request('http://www.sunmoon.ac.kr'). #오류 발생 
+
+import
