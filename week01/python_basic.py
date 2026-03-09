@@ -437,4 +437,9 @@ f = open('example.txt', 'r')
 lines = f.readlines()
 print(lines)
 
-for line in lines
+for line in lines:
+    print(line)
+
+f.close()
+
+#파일 모드 
