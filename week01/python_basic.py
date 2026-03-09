@@ -71,4 +71,8 @@ a ="Pithon"
 
 # 문자열 바꾸기
 a = "Pyhon is difficult"
-print(a.re)
+print(a.replace("difficult",  "funny"))
+print(a)
+
+#문자열 나누기
+print(a.s)
