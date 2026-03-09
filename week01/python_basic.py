@@ -9,4 +9,7 @@ print(7 & 3)
 print(a // 3)
 print(7 // 3)
 
-s1 = "Hello "
+s1 = 'Hello python'
+print(s1)
+
+s3 =''''''
