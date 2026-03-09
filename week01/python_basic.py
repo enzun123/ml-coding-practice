@@ -7,4 +7,5 @@ print(a ** 3)
 
 #나머지 연산
 print(a & b)
-prin
+print(7 % 3)
+
