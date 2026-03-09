@@ -16,4 +16,5 @@ s3 ='''hello
 python'''
 print(s3)
 
-s
+head = "Python"
+tall = 
