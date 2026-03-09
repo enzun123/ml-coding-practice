@@ -75,4 +75,6 @@ print(a.replace("difficult",  "funny"))
 print(a)
 
 #문자열 나누기
-print(a.s)
+print(a.split())
+
+b = "a, b, c , d"
