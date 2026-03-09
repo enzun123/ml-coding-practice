@@ -412,14 +412,14 @@ pandas.DataFrame()
 from datetime import datetime
 datetime.now()
 
-#파일 객체 생성
+# 파일 객체 생성
 f = open('example.txt', 'w')
 print(f)
 
 # 파일 닫기
 f.close()
 
-#파일 쓰기 
+# 파일 쓰기 
 f = open('example.txt', 'w')
 for i in range(1, 6):
     data = '%d번째 줄입니다.\n' % i
@@ -433,7 +433,7 @@ for i in range(6, 11):
     f.write(data)
 f.close()
 
-# 파일 모드 'r' - readline()
+# 파일 모드 'r' - readlines()
 f = open('example.txt', 'r')
 
 while True:
