@@ -247,4 +247,8 @@ print(s2)
 s2 = set([1, 2, 3, 4, 5, 6, 3, 1, 6])
 print(s2)
 
-#ㅂ
+#비교 연산자
+x = 3
+y = 2
+print(x == y)
+print( x)
