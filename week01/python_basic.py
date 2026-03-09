@@ -420,7 +420,7 @@ for i in range(1, 6):
     f.write(data)
 f.close
 
-#파일에 내용 추가하기 
+# 파일에 내용 추가하기 
 f = open('example.txt', 'w')
 for i in range(6, 11):
     data = '%d번째 줄 추가입니다. \n' % i
@@ -436,7 +436,7 @@ while True:
     print(line)
 f.close
 
-#파일 모드 'r' -readlines()
+# 파일 모드 'r' -readlines()
 f = open('example.txt', 'r')
 lines = f.readlines()
 print(lines)
