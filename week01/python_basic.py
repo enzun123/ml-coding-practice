@@ -223,4 +223,6 @@ print(s2 & s3)
 print(s2.intersection(s3))
 
 # 합집합 연산 
+print(s2 | s3)
 print
+p
