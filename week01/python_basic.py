@@ -341,3 +341,6 @@ print(dir({'1':'A'}))
 print(dir(1))
 
 print(int('3'))
+print(str(3))
+
+#x를 리스트로 반환
