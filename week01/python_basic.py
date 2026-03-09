@@ -378,4 +378,7 @@ print(c)
 #입력 받은 숫자에 해당되는 범위의 가뵤을 반환
 print(range(5))
 print(list(range(5)))
-print(lis)
+print(list(range(5, 10)))
+print(list(range(5, 10 ,2)))
+
+for i in range(5)
