@@ -65,4 +65,6 @@ print(d.lsrtip())
 print(d.rstrip())
 print(d.strip())
 
-#문자열 수정 
+#문자열 수정 (불가능)
+a ="Pithon"
+#
