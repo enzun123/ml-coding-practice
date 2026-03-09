@@ -205,4 +205,7 @@ print(list(dic.values()))
 print(dic.items())
 
 for key, value in dic.items():
-    print()
+    print(key + ":" + value)
+    
+# 원소 삭제 
+dic
