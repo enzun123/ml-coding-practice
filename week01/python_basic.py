@@ -6,3 +6,7 @@ print(a % b)
 print(7 & 3)
 
 #나머지 연산
+print(a // 3)
+print(7 // 3)
+
+s1 = "Hello "
