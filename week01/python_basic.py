@@ -130,3 +130,8 @@ print(a)
 print(a.index(9))
 
 #원소 삽입
+a.insert(0, 99)
+print(a)
+
+#원소 삭제 
+a.insert
