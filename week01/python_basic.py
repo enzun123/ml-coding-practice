@@ -270,4 +270,5 @@ print('i' not in 'Python')
 if money >= 10:
     pass
 else:
-    print("ㅂ")
+    print('저금하자!')
+    
