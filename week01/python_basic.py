@@ -324,3 +324,5 @@ print(all([1, 2, 3, 4]))
 print(all([4, -2, 0.0, 4]))
 
 # 그룹 자료형의 변수 x의 원소 중 하나라도 참이면 True 변환
+print(any([1, 2, 3, 4]))
+print(any)
