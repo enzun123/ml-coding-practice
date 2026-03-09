@@ -17,4 +17,7 @@ python'''
 print(s3)
 
 head = "Python"
-tall = 
+tall = " is fun"
+print(head + tall)
+
+
