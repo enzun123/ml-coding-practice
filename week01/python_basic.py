@@ -83,4 +83,5 @@ print(b.split(','))
 
 #리스트 만들기
 a = [1, 2, 3]
-b = ['Life', "is", '']
+b = ['Life', 'is', 'too', 'short']
+c = [1, 2, ]
