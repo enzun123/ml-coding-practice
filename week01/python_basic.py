@@ -365,3 +365,6 @@ print(max([1, 4, 2, 8, 6]))
 print(max("Python"))
 
 # x의 y제곱 결과값 반환
+print(pow(2, 4))
+
+#사용자 입력으로 받은 값은 문
