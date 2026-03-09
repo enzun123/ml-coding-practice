@@ -186,6 +186,8 @@ dic = {'name':'hong', 'phone':'01012345678', 'birth':'0814'}
 dic[1] = 'a'
 print(dic)
 
+dic
+
 # 원소 삭제 
 del dic[1]
 print(dic)
