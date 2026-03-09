@@ -52,4 +52,7 @@ print(a.index('y'))
 
 #문자 삽입
 b= ","
-c=b
+c = b.join('Abcd')
+print(c)
+
+#대소문자 변화
