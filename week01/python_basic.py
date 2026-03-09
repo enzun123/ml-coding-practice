@@ -59,17 +59,17 @@ b= ","
 c = b.join('Abcd')
 print(c)
 
-#대소문자 변환
+# 대소문자 변환
 print(a.upper())
 print(a.lower())
 
-#공백 제거
+# 공백 제거
 d = "              py           "
 print(d.lstrip())
 print(d.rstrip())
 print(d.strip())
 
-#문자열 수정 (불가능)
+# 문자열 수정 (불가능)
 a ="Pithon"
 # a[1] = 'y'   #오류 발생
 
@@ -78,36 +78,36 @@ a = "Python is difficult"
 print(a.replace("difficult",  "funny"))
 print(a)
 
-#문자열 나누기
+# 문자열 나누기
 print(a.split())
 
 b = "a, b, c, d"
 print(b)
 print(b.split(','))
 
-#리스트 만들기
+# 리스트 만들기
 a = [1, 2, 3]
 b = ['Life', 'is', 'too', 'short']
 c = [1, 2, 'Life', 'is']
 d = [1, 2, [3, 4], ['Life', 'is']]
 
-#리스트 인덱싱
+# 리스트 인덱싱
 print(d[0])
 print(d[2])
 print(d[3][-1])
 
-#리스트 슬라이싱
+# 리스트 슬라이싱
 print(d[0:3])
 
-#리스트 연결
+# 리스트 연결
 print(a + b)
 print(b[0] + " hi~ ^^;")
-#print(a[0] + "hi~ ^^;")   #오류발생
+# print(a[0] + "hi~ ^^;")   #오류발생
 
-#리스트 반복
+# 리스트 반복
 print(a * 3)
 
-#리스트 수정 
+# 리스트 수정 
 a[2] = 99
 print(a)
 
@@ -117,27 +117,27 @@ print(a)
 a[-1] = ['d', 'e', 'f']
 print(a)
 
-#삭제
+# 삭제
 del a[-1]
 print(a)
 
-#원소 추가
+# 원소 추가
 a.append(5)
 print(a)
 
-#원소 정렬
+# 원소 정렬
 b.sort()
 print(a)
 
-#원소 순서 뒤집기
+# 원소 순서 뒤집기
 a = [3, 4, 1, 9]
 a.reverse()
 print(a)
 
-#원소 위치 확인
+# 원소 위치 확인
 print(a.index(9))
 
-#원소 삽입
+# 원소 삽입
 a.insert(0, 99)
 print(a)
 
