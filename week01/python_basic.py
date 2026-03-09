@@ -449,4 +449,4 @@ f.close()
 data
 
 #with open() as 파일 객체
-with open()
+with open('example.txt', 'w')
