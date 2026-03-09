@@ -273,7 +273,7 @@ print(x not in [1, 2, 3])
 print('a' in ['a', 'b', 'c', 'd'])
 print('i' not in 'Python')
 
-# 아무것도 하지 않게 설정
+# 아무 것도 하지 않게 설정
 if money >= 10:
     pass
 else:
@@ -290,7 +290,7 @@ for i in test_list:
 # for 반복문2
 number = 0
 for score in [90, 25, 67, 45, 93]:
-    number +=1
+    number += 1
     
     if score > 60:
         print("%d번 학생은 합격입니다." % number)
