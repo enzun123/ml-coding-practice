@@ -45,4 +45,4 @@ a = "Python"
 print(a.count('p'))
 
 #문자 위치 확인
-print
+print(a.find)
