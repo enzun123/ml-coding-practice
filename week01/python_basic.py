@@ -204,4 +204,5 @@ print(list(dic.values()))
 # key, value 쌍 구하기
 print(dic.items())
 
-for key, valu
+for key, value in dic.items():
+    print()
