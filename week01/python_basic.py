@@ -329,4 +329,8 @@ print(any([4, -2, 0.0, 4]))
 
 #아스키코드 값에 대한 문자 출력
 print(chr(97))
-print(chr())
+print(chr(48))
+
+#문자에 대한 아스키코드 값 출력
+print(ord('a'))
+p
