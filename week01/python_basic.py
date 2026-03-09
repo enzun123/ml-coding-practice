@@ -61,4 +61,5 @@ print(a.lower())
 
 #공백 제거
 d = "              py           "
-print
+print(d.lsrtip())
+print(d.rstrip)
