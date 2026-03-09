@@ -70,5 +70,5 @@ a ="Pithon"
 # a[1] = 'y'   #오류 발생
 
 # 문자열 바꾸기
-
-ㅁ=
+a = "Pyhon is difficult"
+print(a.re)
