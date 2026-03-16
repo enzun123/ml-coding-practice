@@ -45,5 +45,5 @@ print(sample_df.drop(['a','b','c'], axis=0))
 netflix = pd.read_csv('2.1.1.netflix.csv')
 print(netflix.head())
 
-print(netflix['release_yer'])
 print(netflix['release_year'])
+print(netflix['release_year'] > 2015)
