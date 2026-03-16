@@ -193,4 +193,6 @@ np_b = np.array([[1,0], [0,1]])
 print(np_b)
 print(np_a + np_b)
 print(np_a - np_b)
-print(np_a * np)
+print(np_a * np_b)
+print(np_a @ np_b)
+
