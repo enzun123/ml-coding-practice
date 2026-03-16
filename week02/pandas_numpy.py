@@ -211,3 +211,5 @@ A = np.array([4, 16, 25])
 print(np.sprt(A))
 
 print(np.arange(8).reshape(2, 4) +10)
+
+# 0부터 8 미만까지 출력하고 (2, 4) 크기로 재가공 후, 제
