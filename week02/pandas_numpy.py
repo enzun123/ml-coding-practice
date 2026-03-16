@@ -9,4 +9,9 @@ print(sample.tail())
 sample.info()
 sample.describe()
 
-sample_dic={'name':['join','Ann','Kevin'], 'age':[]}
+sample_dic={'name':['join','Ann','Kevin'], 'age':[23,22,21]}
+a = pd.DataFrame(sample_dic)
+
+a.info()
+
+pd.DataFrame
