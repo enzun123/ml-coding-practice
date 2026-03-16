@@ -151,4 +151,7 @@ print(average_df)
 # 2.2 넘파이
 import numpy as np
 
-print(np.ar)
+print(np.array([1,2,3]))
+
+print(np.array([1,2,3]
+               [4,5,6]))
