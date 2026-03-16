@@ -97,4 +97,4 @@ print(sample_df.describe())
 print(sample_df.std())
 print(sample_df.agg(['count','mean', 'std', 'min', 'max']))
 
-file_url = "https:"
+file_url = "https://media.githubusercontent.com/media/musthave-ML10/d"
