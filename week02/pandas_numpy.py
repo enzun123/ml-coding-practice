@@ -106,7 +106,7 @@ print(iris.groupby('class').std())
 
 print(iris.drop('class', axis=1).agg(['sum','mean', 'std']))
 
-# print(iris.aff(['sum','mean', 'std']))    #컬럼으로 인해 에러 발생
+# print(iris.agg(['sum','mean', 'std']))    #컬럼으로 인해 에러 발생
 
 
 print(iris['class'].unique())
