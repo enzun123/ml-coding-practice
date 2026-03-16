@@ -170,5 +170,5 @@ print(np.array([[[1,2,3],
 print(np.array([1,2,3,4,5]))
 print(np.array(sample_df))
 
-sample_df = np.array(sample_df)
-print(pd.DataFrame(sample_np))
+sample_np = np.array(sample_df)
+print(pd.DataFrame(sample_np))      # 컬럼명이 0,
