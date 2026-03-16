@@ -25,8 +25,8 @@ print(sample_df.head())
 
 print(sample_df['var_5'])
 
-# print(sample_df['var_1', 'var_2]')   #[ ] 안에는 하나의 값만 들어갈 수 있음
-print(sample_df[['var_1', 'var_4']])  #[ [ ] ]를 사용하면 [] 가 하나의 값으로 인식됨
+# print(sample_df['var_1', 'var_2]')   # [ ] 안에는 하나의 값만 들어갈 수 있음
+print(sample_df[['var_1', 'var_4']])  # [ [ ] ]를 사용하면 [] 가 하나의 값으로 인식됨
 
 # loc 는 location의 앞글자
 print(sample_df.loc['a'])           # 행 기준으로 인덱싱
@@ -37,7 +37,7 @@ print(sample_df.loc['a':'c'])
 print(sample_df.iloc[[0,1,2]])
 print(sample_df.iloc[0:2])
 print(sample_df.iloc[0:3])
-print(sample_df.iloc[0:3,2:4])          #컬럼까지 동시에 인덱싱
+print(sample_df.iloc[0:3,2:4])          # 컬럼까지 동시에 인덱싱
 
 print(sample_df.drop(['var_1','var_3'], axis=1))
 print(sample_df.drop(['var_1','var_2'], axis=1))
@@ -82,7 +82,7 @@ condition = (
     (df['has_image'])
 )
 
-#조건을 만족하는 행돌 필터링
+# 조건을 만족하는 행돌 필터링
 winner_df = df[condition]
 print(winner_df)
 
