@@ -42,4 +42,4 @@ print(sample_df.drop(['var_1','var_3'], axis=1))
 print(sample_df.drop(['var_1','var_2'], axis=1))
 print(sample_df.drop(['a','b','c'], axis=0))
 
-ne
+netfix = pd.read_csv('2.1.1.netflix.csv')
