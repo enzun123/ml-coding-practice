@@ -54,7 +54,7 @@ print(more2015.head(10))
 
 print(~(netflix['release_year'] > 2015))
 less2015 = netflix[~(netflix['release_year'] > 2015)]
-print(less)
+print(less2015.head())
 
 print((netflix['release_year'] > 2015) & (netflix['type'] == 'TV show'))
 
@@ -75,4 +75,7 @@ df = pd.DataFrame(data)
 print(df.head())
 
 # 필터링 조건 설정
+condition = (
+    (df[''])
+)
 
