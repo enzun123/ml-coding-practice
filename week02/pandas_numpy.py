@@ -191,4 +191,6 @@ print(np_a+10 / 3)
 
 np_b = np.array([[1,0], [0,1]])
 print(np_b)
-print
+print(np_a + np_b)
+print(np_a - np_b)
+print(np_a * np)
