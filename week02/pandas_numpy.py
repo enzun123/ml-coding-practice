@@ -62,5 +62,6 @@ print(more2015_or_tv.head())
 
 data = {
     'name': ['Alice', 'Bob', 'Charlie', 'David', 'Eve', 'Frank', 'Grace', 'Hannah'],
-    'comment_length': [150,200,50,300,120]
+    'comment_length': [150, 200, 50, 300, 120, 180, 75, 160],
+    'likes'
 }
