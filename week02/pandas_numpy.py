@@ -168,4 +168,7 @@ print(np.array([[[1,2,3],
                  [7,8,9]]]))
 
 print(np.array([1,2,3,4,5]))
-promt()
+print(np.array(sample_df))
+
+sample_df = np.array(sample_df)
+print(pd.D)
