@@ -67,3 +67,7 @@ data = {
     'is_spam': [False, False, True, False, False, True, False, False],
     'has_image': [True, False, True, True, False, False, True, True]
 }
+df = pd.DataFrame(data)
+print(df.head())
+
+# 필터링 조건 설
