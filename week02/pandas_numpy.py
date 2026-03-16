@@ -70,4 +70,5 @@ data = {
 df = pd.DataFrame(data)
 print(df.head())
 
-# 필터링 조건 설
+# 필터링 조건 설정
+
