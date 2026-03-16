@@ -82,3 +82,5 @@ condition = (
     (df['has_image'])
 )
 
+#조건을 만족하는 행돌 필터링
+winner_df = df[co]
