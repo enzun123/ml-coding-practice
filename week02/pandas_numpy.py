@@ -149,4 +149,6 @@ average_df = df[['name', 'average']]
 print(average_df)
 
 # 2.2 넘파이
-import numpy as
+import numpy as np
+
+print(np.ar)
