@@ -7,4 +7,6 @@ print(sample.head())
 print(sample.tail())
 
 sample.info()
-sample
+sample.describe()
+
+sample_dic={'name':['join']}
