@@ -83,4 +83,7 @@ condition = (
 )
 
 #조건을 만족하는 행돌 필터링
-winner_df = df[co]
+winner_df = df[condition]
+print(winner_df)
+
+print(sample_df.reset_index)()
