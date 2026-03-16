@@ -24,4 +24,5 @@ sample_df = pd.read_csv(file_url,index_col=0)
 
 print(sample_df['var_5'])
 
-#print(sample_df['var_1', 'var_2])   #[ ] 안에는 하나의 값만 들어가
+#print(sample_df['var_1', 'var_2])   #[ ] 안에는 하나의 값만 들어갈 수 있음
+print(sample_df[['var_1', 'var_4']])
