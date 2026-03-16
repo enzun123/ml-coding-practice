@@ -137,4 +137,7 @@ data = {
 }
 
 # DataFrame 생성
-df = ㅔ
+df = pd.DataFrame(data)
+print(df.head())
+
+# 개인별 과목 점수의 평균값 ㄱ{
