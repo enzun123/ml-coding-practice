@@ -201,4 +201,5 @@ print(np.random.randint(11))
 print(np.random.randint(50, 71))
 print(np.random.randint(50, 71, 10))
 print(np.random.randint(['red', 'green','white','black','blue'],size=3))
+print(np.random.randint(['red', 'green','white','black','blue'],size=3,replace-False))
 
