@@ -331,4 +331,4 @@ plt.close()
 ## **타이타닉 데이터셋으로 개별 서브플롯 동시에 그리기**
 
 # 긱 부모와 자냐의 수에 따른 생존자와 사망자 수 계산
-parch_counts = titanic.groupby('Parch'['Sur'])
+parch_counts = titanic.groupby['Parch']['Survived'].value_counts().un
