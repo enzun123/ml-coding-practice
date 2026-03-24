@@ -60,6 +60,9 @@ plt.close()
 
 # 성별에 따른 생존자 수 계산
 survived_counts = titanic[titanic['Survived'] == 1]['Sex'].value_counts()
-print(S)
+print(survived_counts)
+
+# 수평 막대 그래프 그리기
+bars = plt.barh(survived_counts)
 
 
