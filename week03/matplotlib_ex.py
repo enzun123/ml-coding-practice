@@ -334,4 +334,5 @@ plt.close()
 parch_counts = titanic.groupby['Parch']['Survived'].value_counts().unstack().fillna(0)
 print(parch_counts)
 
-# x, y 
+# x, y 값 설정
+x = parch_counts.index.astype(str)  #데이터 프레임의 인덳
