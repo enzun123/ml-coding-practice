@@ -127,4 +127,6 @@ print(titanic.info())
 plt.figure(figsize=(10, 6))
 plt.hist(titanic['Age'], bins=20, color='seagreen', edgecolor='black')
 
-plt.xlabel('Ah')
+plt.xlabel('Ahe')
+plt.ylabel('Count')
+plt.title('Distr')
