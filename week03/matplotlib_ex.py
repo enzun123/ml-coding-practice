@@ -120,4 +120,7 @@ plt.close()
 print(titanic.info(), '\n')
 
 # 나이 결측지 처리 후
-titanic = ti
+titanic = titanic.dropna(subset=['Age'])
+print(titanic.info())
+
+#ㅎ
