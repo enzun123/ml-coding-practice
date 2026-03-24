@@ -233,4 +233,4 @@ plt.legend(violin_plot['bodies'], ['1st class, 2nd Class', '3rd Class'],
 plt.savefig('Figure10.png')
 plt.close()
 
-## **에러 바 
+## **에러 바 : 여금의 평균과 표준편차 표현하기
