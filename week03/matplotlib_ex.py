@@ -79,4 +79,6 @@ for i, value in enumerate(survived_counts):
 plt.savefig('Figure03.png')
 plt.close()
 
-""""""
+"""### **산점도 그래프 : 나이와 요금, 생존 여부 확인하기**"""
+
+print(ti)
