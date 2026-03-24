@@ -256,4 +256,7 @@ plt.xlabel('Parch')
 plt.ylabel('Fare')
 plt.xticks(fare_means.index)
 plt.legend()
-plt.savefig
+plt.savefig('Figure11.png')
+plt.close()
+
+## **개별 서브플롯을 하나씩 새
