@@ -53,4 +53,7 @@ plt.grid(axis='y', linestyle='--', alpha=0.7)
 for i, value in enumerate(survived_counts):
     plt.text(i, value + 1, str(value), ha='center', va='bottom')
     
-plt.savefig()
+plt.savefig('Figure02.png')
+plt.close()
+
+"""### **수평 막대 그래프 : ㅅ"""
