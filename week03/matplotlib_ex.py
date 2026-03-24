@@ -172,7 +172,7 @@ plt.figure(figsize=(10, 6))
 
 #나이대별 생존자
 plt.fill_between(survived_counts.index.astype(str),survived_counts[1],
-                 color='hotpin, alpha=0.9, label='Survived')
+                 color='purple', alpha=0.9, label='Survived')
 
 #나이대별 사망자
 plt.fill_between(survived_counts.index.astype(str), survived_counts[0],
@@ -181,4 +181,6 @@ plt.fill_between(survived_counts.index.astype(str), survived_counts[0],
 plt.title('Survival by Age Group on Titantic')
 plt.xlabel('Age')
 plt.ylabel('Count')
-plt.xticks
+plt.xticks(rotatoin=45)
+plt.legend()
+plt.g
