@@ -74,4 +74,9 @@ plt.axvline(x=survived_counts['Male'], color='Gray', linestyle='--', Linewidth=1
 
 #생존자 수 표시
 for i, value in enumerate(survived_counts):
-    plt.text(value + 1, i, str(value), ha='left', va='centrt')
+    plt.text(value + 1, i, str(value), ha='left', va='center')
+    
+plt.savefig('Figure03.png')
+plt.close()
+
+""""""
