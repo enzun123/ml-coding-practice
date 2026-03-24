@@ -147,4 +147,5 @@ print(correlation_martix)
 plt.matshow(correlation_martix, cmap='PuRd_r')
 plt.colorbar()
 
-# x축과 y축으
+# x축과 y축의 눈금 설정
+plt.xticks(range(len(correlation_martix.columns)), co)
