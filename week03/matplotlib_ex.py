@@ -218,4 +218,4 @@ plt.figure(figsize=(10, 6))
 violin_plot = plt.violinplot([titanic[titanic['Pclass'] == 1]['Age'],
                               titanic[titanic['Pclass'] == 2]['Age'],
                               titanic[titanic['Pclass'] == 3]['Age']],
-                             labels=['q'])
+                             labels=['1st Class', '2st Class', '1st Class'])
