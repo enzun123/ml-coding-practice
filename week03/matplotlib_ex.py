@@ -160,4 +160,5 @@ plt.close()
 # 결측치 처리
 titanic = titanic.dropna(subset=['Age', 'Fare'])
 
-# sk
+# 나이대별 생존자와 사망자 수 계산하기 위해 범주형 변수로 변환
+age_
