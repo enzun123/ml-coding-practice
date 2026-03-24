@@ -94,4 +94,5 @@ scatter =plt.scatter(x='Age', y='Fare', data=titanic, c=titanic['Survived'],cmap
 plt.title('Age and Fare Relatiomshio with Survival on the Titantic')
 plt.xlabel('Age')
 plt.ylabel('Fare')
-plt.legend()
+plt.legend(handles=scatter.legend_elements()[0], title='Survived',
+           la)
