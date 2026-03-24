@@ -227,4 +227,5 @@ plt.ylabel('Age')
 # x축의 눈금 설장
 plt.xticks([1, 2, 3], ['1st Class', '2nd Class', '3rd Class'])
 
-# 범
+# 범례 설정
+plt.legend([1, 2, 3], ['1st '])
