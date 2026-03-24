@@ -84,4 +84,4 @@ plt.close()
 print(titanic.infro(), '\n')
 
 #결측지 처리
-titanic = titanic.d
+titanic = titanic.dropna
