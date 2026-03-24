@@ -303,4 +303,6 @@ plt.legend(loc='upper right')
 
 # 두 번쨰 서브플롯 설정(막배 그래프)
 plt.subplot(2, 1, 2)
-plt.bar(x, y2, color='deeppink', alpha=0.7, width=0.5)
+plt.bar(x, y2, color='deeppink', alpha=0.7, width=0.5, label='Survived')
+plt.xlabel('Parch')
+plt.x
