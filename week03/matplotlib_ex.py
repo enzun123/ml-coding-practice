@@ -274,4 +274,6 @@ plt.plot([10 ,11, 12])
 plt.savefig('Figrue12.png')
 plt.close()
 
-## **ㅌ
+## **타이타닉 데이터셋으로 개별 서브플롯 하나씩 그리기**
+
+# Su
