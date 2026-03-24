@@ -21,3 +21,6 @@ pclass_survived_mean
 
 # 맷플룻립 라이브러리 블러오기
 import matplotlib.pyplot as plt
+
+# 선 그래프 그리기
+plt.plot(pclass_survived_mean['Pclass'], pclass_survived_mean[])
