@@ -325,4 +325,7 @@ axes[0, 0].plot([1, 2, 3])
 axes[0, 1].plot([4, 5, 6])
 axes[1, 0].plot([7, 8, 9])
 axes[1, 1].plot([10, 11, 12])
-plt.savefig
+plt.savefig('Figure14.png')
+plt.close()
+
+## **
