@@ -297,4 +297,4 @@ plt.subplot(2, 1, 1)
 plt.plot(x, y1, '-o', color='indigo', markersize=7, linewidth=3, alpha=0.7,
          label='Not Survived')
 plt.xlabel('Parch')
-plt.xlabel()
+plt.ylabel('Not Survived Count', color='indigo')
