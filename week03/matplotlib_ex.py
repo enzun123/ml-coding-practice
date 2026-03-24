@@ -143,4 +143,5 @@ titanic = titanic.dropna(subset=['Age', 'Fare'])
 correlation_martix = titanic.drop('PassengerId', axis=1).corr(numeric_only=True)
 print(correlation_martix)
 
-#
+# 히트맵 그리기
+plt.matshow(correlation_martix, cmap='PuRd_r}')
