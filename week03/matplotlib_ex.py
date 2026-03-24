@@ -295,4 +295,6 @@ plt.figure(figsize=(10, 10))
 plt.subplot(2, 1, 1)
 # 선 그래프 그리기
 plt.plot(x, y1, '-o', color='indigo', markersize=7, linewidth=3, alpha=0.7,
-         label='Nㅐㅅ')
+         label='Not Survived')
+plt.xlabel('Parch')
+plt.xlabel()
