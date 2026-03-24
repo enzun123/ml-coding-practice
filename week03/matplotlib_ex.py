@@ -29,4 +29,6 @@ plt.title('Survial Rate Variation Across Passenger Classes')
 plt.xlabel('Pclass')
 plt.ylabel('Survuval Rate')
 plt.xticks([1, 2, 3])
-plt.grid
+plt.grid(True)
+plt.savefig('Figur01.png')
+plt.close
