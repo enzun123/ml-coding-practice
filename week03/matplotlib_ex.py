@@ -123,4 +123,5 @@ print(titanic.info(), '\n')
 titanic = titanic.dropna(subset=['Age'])
 print(titanic.info())
 
-#ㅎ
+# 히스토그램 그리기
+plt.figure(figsize=(10, 6))
