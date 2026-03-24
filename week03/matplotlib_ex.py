@@ -137,4 +137,7 @@ plt.close()
 ## 히트맵 : 두 변수의 상괸 관계를 표시하기**
 
 #r 결측치 처리
-titanic = titanic.d
+titanic = titanic.dropna(subset=['Age', 'Fare'])
+
+# 상관 행렬 계산
+corre
