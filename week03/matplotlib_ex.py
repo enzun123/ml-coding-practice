@@ -95,4 +95,4 @@ plt.title('Age and Fare Relatiomshio with Survival on the Titantic')
 plt.xlabel('Age')
 plt.ylabel('Fare')
 plt.legend(handles=scatter.legend_elements()[0], title='Survived',
-           la)
+           labels=['Not Survived', 'Survived'], loc='upper righ')
