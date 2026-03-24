@@ -64,6 +64,6 @@ print(survived_counts)
 
 # 수평 막대 그래프 그리기
 bars = plt.barh(survived_counts.index, survived_counts, color=['darkturquoise', 'salmon'])
-plt.title('')
+plt.title['Survived = Female', 'Survived - Male']
 
 
