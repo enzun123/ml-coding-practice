@@ -183,4 +183,5 @@ plt.xlabel('Age')
 plt.ylabel('Count')
 plt.xticks(rotatoin=45)
 plt.legend()
-plt.g
+plt.grid(True)
+plt.savefig('Figur08.png')
