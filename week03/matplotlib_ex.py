@@ -238,4 +238,8 @@ plt.close()
 # 각 부모와 자녀의 수에 대한 요금의 평균과 표준 편차 계산
 fare_means = titanic.groupby('parch')['Fare'].mean() # 평균
 print(fare_means, '\n')
-fare_std = titanic.groupby('Parch')['Fare'].std()   
+
+fare_std = titanic.groupby('Parch')['Fare'].std()   #표준 편차
+print(fare_std)
+
+
