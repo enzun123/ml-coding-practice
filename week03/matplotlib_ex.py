@@ -228,4 +228,4 @@ plt.ylabel('Age')
 plt.xticks([1, 2, 3], ['1st Class', '2nd Class', '3rd Class'])
 
 # 범례 설정
-plt.legend(violin_plot['bodies'], ['1st class', ])
+plt.legend(violin_plot['bodies'], ['1st class, 2nd Class', '3rd Class' ])
