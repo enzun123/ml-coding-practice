@@ -23,4 +23,5 @@ pclass_survived_mean
 import matplotlib.pyplot as plt
 
 # 선 그래프 그리기
-plt.plot(pclass_survived_mean['Pclass'], pclass_survived_mean[])
+plt.plot(pclass_survived_mean['Pclass'], pclass_survived_mean['Survived'],
+         marker='o', linestyle)
