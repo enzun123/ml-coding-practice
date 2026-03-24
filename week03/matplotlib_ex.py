@@ -202,4 +202,7 @@ plt.boxplot([itanic[titanic['Pclass'] == 1]['Age'],
 plt.title('Box plot for Age by Pclass')
 plt.xlabel('Pclass')
 plt.ylabel('Age')
-plt
+plt.savefig('Figure09.png')
+plt.close()
+
+'''### **바'''
