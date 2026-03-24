@@ -30,5 +30,5 @@ plt.xlabel('Pclass')
 plt.ylabel('Survuval Rate')
 plt.xticks([1, 2, 3])
 plt.grid(True)
-plt.savefig('Figur01.png')
+plt.savefig('Figur01.png')          #결과를 
 plt.close
