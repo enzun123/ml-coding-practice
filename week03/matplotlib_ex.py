@@ -131,4 +131,7 @@ plt.xlabel('Ahe')
 plt.ylabel('Count')
 plt.title('Distribuiton of Ages on the Titanic')
 plt.grid(axis='y', linestyle='--', alpha=0.7)
-plt.savefig('Fi')
+plt.savefig('Figure06.png')
+plt.close()
+
+## 히트맵 : 두 변수의 상괸 관
