@@ -144,4 +144,7 @@ correlation_martix = titanic.drop('PassengerId', axis=1).corr(numeric_only=True)
 print(correlation_martix)
 
 # 히트맵 그리기
-plt.matshow(correlation_martix, cmap='PuRd_r}')
+plt.matshow(correlation_martix, cmap='PuRd_r')
+plt.colorbar()
+
+# x축과 y축으
