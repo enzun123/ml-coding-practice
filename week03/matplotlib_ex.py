@@ -343,4 +343,4 @@ y2 = parch_counts[1].values # 생존자
 fig, axes = plt.subplot(2, 1, figsize=(10, 10))
 
 # 첫 번쨰 서브플롯 설정(선 그래프)
-axes[0].plot(x, y1)
+axes[0].plot(x, y1, '-o', color='indigo', markersize=7)
