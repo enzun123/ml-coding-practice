@@ -198,3 +198,5 @@ plt.boxplot([itanic[titanic['Pclass'] == 1]['Age'],
              titanic[titanic['Pclass'] == 2]['Age'],
              titanic[titanic['Pclass'] == 3]['Age']],
             label=['1st Class', '2nd Class', '3rd Class'])
+
+plt.title('Box o')
