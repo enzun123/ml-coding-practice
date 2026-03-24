@@ -187,3 +187,4 @@ plt.grid(True)
 plt.savefig('Figure08.png')
 plt.close()
 
+## **ㅂ박스 플롯 : 승객 나이의 데이터 
