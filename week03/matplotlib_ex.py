@@ -286,4 +286,8 @@ print(parch_counts)
 # x, y 설정 
 x = parch_counts.index.astype(str) # 데이터프레임의 인덱스를 문자열로 반환
 y1 = parch_counts[0].values # 사망자
-y2 = parch_counts[1].values 
+y2 = parch_counts[1].values # 생존자
+
+plt.figure(figsize=(10, 10))
+
+# plt.sub
