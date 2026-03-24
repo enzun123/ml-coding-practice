@@ -56,4 +56,8 @@ for i, value in enumerate(survived_counts):
 plt.savefig('Figure02.png')
 plt.close()
 
-"""### **수평 막대 그래프 : ㅅ"""
+"""### **수평 막대 그래프 : 성별에 따른 생존자 수 확인하기**"""
+
+
+# 성별에 따른 생존자 수 계산
+
