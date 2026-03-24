@@ -174,5 +174,8 @@ plt.figure(figsize=(10, 6))
 plt.fill_between(survived_counts.index.astype(str),survived_counts[1],
                  color='hotpink', alpha=0.6, label='Npt Survived')
 
+
 plt.title('Survival by Age Group on Titantic')
-plt.xlabel
+plt.xlabel('Age')
+plt.ylabel('Count')
+plt.xticks
