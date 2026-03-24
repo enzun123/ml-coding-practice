@@ -163,4 +163,5 @@ titanic = titanic.dropna(subset=['Age', 'Fare'])
 # 나이대별 생존자와 사망자 수 계산하기 위해 범주형 변수로 변환
 age_groups = pd.cut(titanic['Age'], bins=range(0, 81, 5))
 
-# Age, Survived 기준으로 
+# Age, Survived 기준으로 그룹화
+survived_counts = titanic.groupby([age_groups, 'Survived'])
