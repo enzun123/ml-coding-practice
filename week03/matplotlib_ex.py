@@ -84,4 +84,4 @@ plt.close()
 print(titanic.infro(), '\n')
 
 #결측지 처리
-titanic = titanic.dropna
+titanic = titanic.dropna(subset=['Age', 'Fare', 'Survived'])
