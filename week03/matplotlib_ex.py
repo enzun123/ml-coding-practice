@@ -155,4 +155,7 @@ plt.title('Correlation Heatmap of Titanic')
 plt.savefig('Fingure.png')
 plt.close()
 
-## **영역 채우기 그래프 : 나이대뱔 생존자와 사망자 
+## **영역 채우기 그래프 : 나이대뱔 생존자와 사망자 수 표현하기**
+
+# 결측치 처리
+titanic = t
