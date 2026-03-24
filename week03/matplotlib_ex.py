@@ -168,4 +168,7 @@ survived_counts = titanic.groupby([age_groups, 'Survived'], observed=False).size
 print(survived_counts)
 
 # 영역 채우기 그래프 그리기
-plt.
+plt.figure(figsize=(10, 6))
+
+#나이대별 생존자
+plt.fll_
