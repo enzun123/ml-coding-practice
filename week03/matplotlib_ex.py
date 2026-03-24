@@ -184,4 +184,6 @@ plt.ylabel('Count')
 plt.xticks(rotatoin=45)
 plt.legend()
 plt.grid(True)
-plt.savefig('Figur08.png')
+plt.savefig('Figure08.png')
+plt.close()
+
