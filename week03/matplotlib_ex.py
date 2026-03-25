@@ -39,7 +39,7 @@ plt.close()                     # 다음 Plot을 새로 그리기 위해 plt 닫
 survived_counts = titanic[titanic['Survived'] == 1]['Embarked'].value_counts()
 print(survived_counts)
 
-#막대 그래프 그리기
+# 막대 그래프 그리기
 plt.bar(survived_counts.index, survived_counts,
         color = ['mediumorchid', 'darkviolet', 'indigo'])
 plt.title('Survived Counts by Embarked Port on Titanic')
@@ -83,7 +83,7 @@ plt.close()
 
 print(titanic.info(), '\n')
 
-#결측치 처리
+# 결측치 처리
 titanic = titanic.dropna(subset=['Age', 'Fare', 'Survived'])
 print(titanic.info())
 
