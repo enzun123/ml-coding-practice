@@ -335,7 +335,7 @@ parch_counts = titanic.groupby('Parch')['Survived'].value_counts().unstack().fil
 print(parch_counts)
 
 # x, y 값 설정
-x = parch_counts.index.astype(str)  # 데이터 프레임의 인덱스를 문자열로 변환
+x = parch_counts.index.astype(str)  # 데이터프레임의 인덱스를 문자열로 변환
 y1 = parch_counts[0].values # 사망자
 y2 = parch_counts[1].values # 생존자
 
