@@ -176,7 +176,7 @@ plt.fill_between(survived_counts.index.astype(str),survived_counts[1],
 
 #나이대별 사망자
 plt.fill_between(survived_counts.index.astype(str), survived_counts[0],
-                 color='hotpink', alpha=0.6, label='t Survived')
+                 color='hotpink', alpha=0.6, label='Not Survived')
 
 plt.title('Survival by Age Group on Titantic')
 plt.xlabel('Age')
@@ -187,7 +187,7 @@ plt.grid(True)
 plt.savefig('Figure08.png')
 plt.close()
 
-## **ㅂ박스 플롯 : 승객 나이의 데이터 분포, 중앙값, 이상치 살펴보기**
+## **박스 플롯 : 승객 나이의 데이터 분포, 중앙값, 이상치 살펴보기**
 
 ## 결측치 처리
 titanic = titanic.dropna(subset=['Age'])
