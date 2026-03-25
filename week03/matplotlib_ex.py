@@ -176,7 +176,7 @@ plt.fill_between(survived_counts.index.astype(str),survived_counts[1],
 
 #나이대별 사망자
 plt.fill_between(survived_counts.index.astype(str), survived_counts[0],
-                 color='hotpink', alpha=0.6, label='Npt Survived')
+                 color='hotpink', alpha=0.6, label='t Survived')
 
 plt.title('Survival by Age Group on Titantic')
 plt.xlabel('Age')
