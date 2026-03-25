@@ -389,4 +389,4 @@ ax2 = ax1.twinx()
 
 # 두 번쨰 그래프 설정 (막대 그래프)
 ax2.bar(x, y2, color='deeppink', alpha=0.7, label='Survived')
-ax2.set
+ax2.set_ylabel('Survived Count', color='deeppink') # 서브플롯 
