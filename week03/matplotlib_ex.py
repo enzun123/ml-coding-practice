@@ -233,7 +233,7 @@ plt.legend(violin_plot['bodies'], ['1st class', '2nd Class', '3rd Class'],
 plt.savefig('Figure10.png')
 plt.close()
 
-## **에러 바 : 여금의 평균과 표준편차 표현하기**
+## **에러 바 : 요금의 평균과 표준편차 표현하기**
 
 # 각 부모와 자녀의 수에 대한 요금의 평균과 표준 편차 계산
 fare_means = titanic.groupby('Parch')['Fare'].mean() # 평균
@@ -242,7 +242,7 @@ print(fare_means, '\n')
 fare_std = titanic.groupby('Parch')['Fare'].std()   #표준 편차
 print(fare_std)
 
-"""* 에러바는 데이터의 표준 편차를 나타내는 경우에는 길이가 길수록 해당 그룹의 대이터가 펴져 있음을 의미"""
+"""* 에러바는 데이터의 표준 편차를 나타내는 경우에는 길이가 길수록 해당 그룹의 데이터가 펴져 있음을 의미"""
 
 # 에러바로 요금의 평균과 표준 편차 표현
 plt.figure(figsize=(10, 6))
