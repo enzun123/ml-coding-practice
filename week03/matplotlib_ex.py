@@ -394,3 +394,7 @@ ax2.tick_params(axis='y', labelcolor='deeppink')
 ax2.legend(loc='upprt right', bbox_yp_anchor=(1, 0.9))
 
 plt.subplot('Survival Analysis by Number of Parents/Children (Parch) on the Titanic')
+plt.tight_layout()
+plt.savefig('Figure16.png')
+plt.close()
+
