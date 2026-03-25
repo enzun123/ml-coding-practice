@@ -291,7 +291,7 @@ y2 = parch_counts[1].values # 생존자
 plt.figure(figsize=(10, 10))
 
 # plt.subplot() 함수를 사용하여 하나의 그림은 figure에 개별 서브플롯을 하나씩 추가
-# 첫 번쨰 서브플롯 설정(선 그래프)
+# 첫 번째 서브플롯 설정(선 그래프)
 plt.subplot(2, 1, 1)
 # 선 그래프 그리기
 plt.plot(x, y1, '-o', color='indigo', markersize=7, linewidth=3, alpha=0.7,
@@ -301,7 +301,7 @@ plt.ylabel('Not Survived Count', color='indigo')
 plt.tick_params(axis='y', labelcolor='indigo')
 plt.legend(loc='upper right')
 
-# 두 번쨰 서브플롯 설정(막배 그래프)
+# 두 번째 서브플롯 설정(막배 그래프)
 plt.subplot(2, 1, 2)
 plt.bar(x, y2, color='deeppink', alpha=0.7, width=0.5, label='Survived')
 plt.xlabel('Parch')
@@ -330,7 +330,7 @@ plt.close()
 
 ## **타이타닉 데이터셋으로 개별 서브플롯 동시에 그리기**
 
-# 긱 부모와 자냐의 수에 따른 생존자와 사망자 수 계산
+# 각 부모와 자ㄴ의 수에 따른 생존자와 사망자 수 계산
 parch_counts = titanic.groupby('Parch')['Survived'].value_counts().unstack().fillna(0)
 print(parch_counts)
 
@@ -342,7 +342,7 @@ y2 = parch_counts[1].values # 생존자
 # plt.subplots() 함수를 사용하여 하나의 그림인 figure에 개별 서브플롯을 동시에 추가
 fig, axes = plt.subplots(2, 1, figsize=(10, 10))
 
-# 첫 번쨰 서브플롯 설정(선 그래프)
+# 첫 번째 서브플롯 설정(선 그래프)
 axes[0].plot(x, y1, '-o', color='indigo', markersize=7, linewidth=3, alpha=0.7, label='Not Survived')
 axes[0].set_xlabel('Parch')
 axes[0].set_ylabel('Not Survived Count', color='indigo')
@@ -377,17 +377,17 @@ y2 = parch_counts[1].values # 생존자
 # figure와 서브플롯 생성
 fig, ax1 = plt.subplots()
 
-# 첫 번쨰 그래프 설정 (선 그래프)
+# 첫 번째 그래프 설정 (선 그래프)
 ax1.plot(x, y1, '-s', color='indigo', markersize=7, linewidth=5, alpha=0.7, label='Not Survived')
 ax1.set_xlabel('Parch') # x축의 레이블
 ax1.set_ylabel('Not Survived Count', color='indigo') # y축의 레이블
 ax1.tick_params(axis='y', labelcolor='indigp')  # 눈금의 모양과 속성
 ax1.legend(loc='upper right', bbox_to_anchor=(1, 1)) # 범례
 
-# .twinx() 함수를 사용하여 두 번짜 그래프와 축을 공유하는 새로운 Axes 객체 생성
+# .twinx() 함수를 사용하여 두 번째 그래프와 축을 공유하는 새로운 Axes 객체 생성
 ax2 = ax1.twinx()
 
-# 두 번쨰 그래프 설정 (막대 그래프)
+# 두 번째 그래프 설정 (막대 그래프)
 ax2.bar(x, y2, color='deeppink', alpha=0.7, width=0.7, label='Survived')
 ax2.set_ylabel('Survived Count', color='deeppink') # 서브플롯 y축에 레이블 추가
 ax2.tick_params(axis='y', labelcolor='deeppink')
