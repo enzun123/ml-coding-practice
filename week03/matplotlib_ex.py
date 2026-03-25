@@ -89,7 +89,7 @@ print(titanic.info())
 
 # 산점도 그래프 그리기
 plt.figure(figsize=(12,8))
-scatter =plt.scatter(x='Age', y='Fare', data=titanic, c=titanic['Survived'],cmap='Set2', alpha=0.7)
+scatter = plt.scatter(x='Age', y='Fare', data=titanic, c=titanic['Survived'],cmap='Set2', alpha=0.7)
 
 plt.title('Age and Fare Relationship with Survival on the Titanic')
 plt.xlabel('Age')
@@ -391,7 +391,7 @@ ax2 = ax1.twinx()
 ax2.bar(x, y2, color='deeppink', alpha=0.7, width=0.7, label='Survived')
 ax2.set_ylabel('Survived Count', color='deeppink') # 서브플롯 y축에 레이블 추가
 ax2.tick_params(axis='y', labelcolor='deeppink')
-ax2.legend(loc='upper right', bbox_yp_anchor=(1, 0.9))
+ax2.legend(loc='upper right', bbox_to_anchor=(1, 0.9))
 
 plt.suptitle('Survival Analysis by Number of Parents/Children (Parch) on the Titanic')
 plt.tight_layout()
