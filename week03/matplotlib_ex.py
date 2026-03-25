@@ -398,3 +398,7 @@ plt.tight_layout()
 plt.savefig('Figure16.png')
 plt.close()
 
+## **그래프 저장하기**
+
+# 하스토그램 그리기
+plt.hist(titanic)
