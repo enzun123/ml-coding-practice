@@ -354,4 +354,8 @@ axes[1].bar(x, y1, color='deeppink', alpha=0.7, width=0.5, label='Survived')
 axes[1].set_xlabel('Parch')
 axes[1].set_ylabel('Survived Count', color='deeppink')
 axes[1].tick_params(axis='y', labelcolor='deeppink')
-axes[1].legend(loc='Figure15.png')
+axes[1].legend(loc='upper right')
+
+#제목 설정
+fig.subtitle('Sur')
+ss
