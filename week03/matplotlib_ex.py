@@ -178,7 +178,7 @@ plt.fill_between(survived_counts.index.astype(str),survived_counts[1],
 plt.fill_between(survived_counts.index.astype(str), survived_counts[0],
                  color='hotpink', alpha=0.6, label='Not Survived')
 
-plt.title('Survival by Age Group on Titantic')
+plt.title('Survival by Age Group on Titanic')
 plt.xlabel('Age')
 plt.ylabel('Count')
 plt.xticks(rotation=45)
@@ -194,7 +194,7 @@ titanic = titanic.dropna(subset=['Age'])
 print(titanic.info())
 
 # 승객 등급에 따른 나이의 박스 플롯
-plt.boxplot([itanic[titanic['Pclass'] == 1]['Age'],
+plt.boxplot([titanic[titanic['Pclass'] == 1]['Age'],
              titanic[titanic['Pclass'] == 2]['Age'],
              titanic[titanic['Pclass'] == 3]['Age']],
             label=['1st Class', '2nd Class', '3rd Class'])
