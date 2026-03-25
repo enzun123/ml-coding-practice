@@ -72,7 +72,7 @@ plt.legend(bars, ['Survived - Female', 'Survived - Male'], loc='upper right')
 # 차이 강조를 위해 수평선 추가
 plt.axvline(x=survived_counts['male'], color='gray', linestyle='--', linewidth=1)
 
-#생존자 수 표시
+# 생존자 수 표시
 for i, value in enumerate(survived_counts):
     plt.text(value + 1, i, str(value), ha='left', va='center')
     
@@ -116,7 +116,7 @@ plt.close()
 
 """### **히스토그램 : 승객의 나이 분포 표시하기**"""
 
-# 처리전
+# 처리 전
 print(titanic.info(), '\n')
 
 # 나이 결측치 처리 후
