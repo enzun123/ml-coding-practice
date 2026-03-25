@@ -378,9 +378,9 @@ y2 = parch_counts[1].values # 생존자
 fig, ax1 = plt.subplot()
 
 # 첫 번쨰 그래프 설정 (선 그래프)
-ax1.plot(x, y1, '-s', color='indigo', markersize=7, linewidth=5, alpha=0.7, label='Npt Survived')
+ax1.plot(x, y1, '-s', color='indigo', markersize=7, linewidth=5, alpha=0.7, label='Not Survived')
 ax1.set_xlabel('Parch') # x축의 레이블
-ax1.set_ylabel('Not Survived Count', clor='indigo') # y축의 레이블
+ax1.set_ylabel('Not Survived Count', color='indigo') # y축의 레이블
 ax1.tick_params(axis='y', labelcolot='indigp')  # 눈금의 모양과 속성
 ax1.legend(loc='upper right', bbox_to_anchor=(1, 1)) # 범례
 
