@@ -1,4 +1,4 @@
-# -*- coding: ytf-8 -*-
+# -*- coding: utf-8 -*-
 # 타이타닉 데이터셋 불러오기
 import pandas as pd
 
@@ -16,7 +16,7 @@ print(titanic.info())
 """### **선 그래프 : 객실 등급에 따른 생존율 표시하기**"""
 
 # 객실 등급에 따른 생존자와 사망자이 평균 계산
-pclass_survived_mean = titanic.groupby('Pclass')['Survived'].mean().repeat_index()
+pclass_survived_mean = titanic.groupby('Pclass')['Survived'].mean().reset_index()
 pclass_survived_mean
 
 # 맷플룻립 라이브러리 블러오기
