@@ -270,7 +270,7 @@ plt.subplot(2, 2, 3)
 plt.plot([7, 8, 9])
 
 plt.subplot(2, 2, 4)
-plt.plot([10 ,11, 12])
+plt.plot([10 ,11 , 12])
 plt.savefig('Figure12.png')
 plt.close()
 
@@ -401,7 +401,7 @@ plt.close()
 ## **그래프 저장하기**
 
 # 하스토그램 그리기
-plt.hist(titanic['Age'],bins=20, color='skyblue', edgecolor='black')
+plt.hist(titanic['Age'], bins=20, color='skyblue', edgecolor='black')
 plt.xlabel('Age')
 plt.ylabel('Count')
 plt.title('Distribution of Ages on the Titanic')
