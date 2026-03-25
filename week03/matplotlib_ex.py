@@ -401,4 +401,4 @@ plt.close()
 ## **그래프 저장하기**
 
 # 하스토그램 그리기
-plt.hist(titanic)
+plt.hist(titanic['Age'],bins=20, color='skyblue', edgecol)
