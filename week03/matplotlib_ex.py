@@ -290,7 +290,7 @@ y2 = parch_counts[1].values # 생존자
 
 plt.figure(figsize=(10, 10))
 
-# plt.subplot() ㅎ수를 사용하여 하나의 그림은 figure에 개뱔 서브플롯을 하나씩 추가
+# plt.subplot() 함수를 사용하여 하나의 그림은 figure에 개별 서브플롯을 하나씩 추가
 # 첫 번쨰 서브플롯 설정(선 그래프)
 plt.subplot(2, 1, 1)
 # 선 그래프 그리기
