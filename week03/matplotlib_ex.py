@@ -134,7 +134,7 @@ plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.savefig('Figure06.png')
 plt.close()
 
-## 히트맵 : 두 변수의 상괸 관계를 표시하기**
+## 히트맵 : 두 변수의 상관 관계를 표시하기**
 
 #r 결측치 처리
 titanic = titanic.dropna(subset=['Age', 'Fare'])
@@ -224,7 +224,7 @@ plt.title('Violin Plot of Age by Pclass')
 plt.xlabel('Pclass')
 plt.ylabel('Age')
 
-# x축의 눈금 설장
+# x축의 눈금 설정
 plt.xticks([1, 2, 3], ['1st Class', '2nd Class', '3rd Class'])
 
 # 범례 설정
