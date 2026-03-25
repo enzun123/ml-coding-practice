@@ -199,7 +199,7 @@ plt.boxplot([titanic[titanic['Pclass'] == 1]['Age'],
              titanic[titanic['Pclass'] == 3]['Age']],
             labels=['1st Class', '2nd Class', '3rd Class'])
 
-plt.title('Box plot for Age by Pclass')
+plt.title('Box Plot for Age by Pclass')
 plt.xlabel('Pclass')
 plt.ylabel('Age')
 plt.savefig('Figure09.png')
@@ -220,7 +220,7 @@ violin_plot = plt.violinplot([titanic[titanic['Pclass'] == 1]['Age'],
                               titanic[titanic['Pclass'] == 3]['Age']],
                              showmeans=False, showmedians=True)
 
-plt.title('Violin plot of Age By Pclass')
+plt.title('Violin Plot of Age by Pclass')
 plt.xlabel('Pclass')
 plt.ylabel('Age')
 
