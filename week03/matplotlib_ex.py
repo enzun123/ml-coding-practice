@@ -365,4 +365,8 @@ plt.close()
 ## **하나의 서브플롯에 여러 그래프 그리기**
 
 # 각 부모와 자녀의 수에 따른 생존자와 사망자 수 계산
-parch_counts = titanic.groupby('Parch')['Survived'].v
+parch_counts = titanic.groupby('Parch')['Survived'].value_counts().unstack().fillna(0)
+print(parch_counts)
+
+# x, y 값 설정 
+x = pa
