@@ -152,7 +152,7 @@ plt.xticks(range(len(correlation_matrix.columns)), correlation_matrix.columns, r
 plt.yticks(range(len(correlation_matrix.columns)), correlation_matrix.columns)
 
 plt.title('Correlation Heatmap of Titanic')
-plt.savefig('Fingure07.png')
+plt.savefig('Figure07.png')
 plt.close()
 
 ## **영역 채우기 그래프 : 나이대뱔 생존자와 사망자 수 표현하기**
