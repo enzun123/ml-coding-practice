@@ -25,12 +25,12 @@ import matplotlib.pyplot as plt
 # 선 그래프 그리기
 plt.plot(pclass_survived_mean['Pclass'], pclass_survived_mean['Survived'],
          marker='o', linestyle='-', color='violet')
-plt.title('Survial Rate Variation Across Passenger Classes')
+plt.title('Survival Rate Variation Across Passenger Classes')
 plt.xlabel('Pclass')
-plt.ylabel('Survuval Rate')
+plt.ylabel('Survival Rate')
 plt.xticks([1, 2, 3])
 plt.grid(True)
-plt.savefig('Figur01.png')          # 결과를 그림파일로 저장    
+plt.savefig('Figure01.png')          # 결과를 그림파일로 저장    
 plt.close                           # 다음 plot을 새로 그리기 위해 plt 닫기
 
 """### **수직 막대 그래프 : 각 승선 항구에 따른 셍존자 수 확인하기 **"""
