@@ -350,4 +350,5 @@ axes[0].tick_params(axis='y' ,labelcolor='indigo')
 axes[0].legend(loc='upper right')
 
 # 두 번째 서브플롯 설정 (막대 그래프)
-axes[0].plot(x, y1, color='deeppink', alpha=0.7, width=0.5, labe)
+axes[1].bar(x, y1, color='deeppink', alpha=0.7, width=0.5, label='Survived')
+axes[1].set_xlabel('')
