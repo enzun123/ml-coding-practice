@@ -110,7 +110,7 @@ plt.figure(figsize=(8, 8))
 plt.pie(survived_counts, labels=['Not Survived', 'Survived'],colors=['orange', 'gold'],
         autopct='%0.1f%%', startangle=90, shadow=True, explode=(0, 0.1))
 
-plt.title('Survival Distrbuition on the Titanic')
+plt.title('Survival Distribution on the Titanic')
 plt.savefig('Figure05.png')
 plt.close()
 
@@ -127,9 +127,9 @@ print(titanic.info())
 plt.figure(figsize=(10, 6))
 plt.hist(titanic['Age'], bins=20, color='seagreen', edgecolor='black')
 
-plt.xlabel('Ahe')
+plt.xlabel('Age')
 plt.ylabel('Count')
-plt.title('Distribuiton of Ages on the Titanic')
+plt.title('Distributionof Ages on the Titanic')
 plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.savefig('Figure06.png')
 plt.close()
