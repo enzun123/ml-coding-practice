@@ -18,4 +18,5 @@ fig = plt.figure(figsize=(15, 5))
 ax1 = fig.add_subplot(1, 2, 1)
 ax2 = fig.add_subplot(1, 2, 2)
 
-# stripp
+# stripplot( ) 그리기
+sns.stripplot(x='day', y'tip', hue='sex')
