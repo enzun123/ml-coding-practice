@@ -39,4 +39,5 @@ ax2 = fig.add_subplot(1, 2, 2)
 # x축 변수, 데이터셋, axe 객체(1번쨰 그래프)
 sns.countplot(x='time', data=tips, ax=ax1)
 
-# 식
+# 식사가 이루어진 시간대 파악과 식사가 이루어진 요일로 색상 분류
+# x축 변수, hue로 ㅅ
