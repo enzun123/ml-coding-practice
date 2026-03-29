@@ -22,4 +22,6 @@ ax2 = fig.add_subplot(1, 2, 2)
 sns.stripplot(x='day', y='tip', hue='sex', data=tips, alpha=0.7, ax=ax1)
 
 # swarmplot( ) 그리기
-sns.swarmplot(x='day', y='tip', hue='sex', data=tips, palette='Set2', alpha=0.7)
+sns.swarmplot(x='day', y='tip', hue='sex', data=tips, palette='Set2', alpha=0.7, ax=ax2)
+
+#
