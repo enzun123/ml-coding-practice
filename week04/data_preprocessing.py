@@ -13,4 +13,5 @@ tips.info()
 
 import matplotlib as plt
 
-# 랴혁ㄷdp 2 개
+# figure에 2개의 서브 플롯을 생성
+fig = plt.figure(fi)
