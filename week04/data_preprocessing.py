@@ -27,4 +27,6 @@ sns.swarmplot(x='day', y='tip', hue='sex', data=tips, palette='Set2', alpha=0.7,
 # 서브 플롯의 제목 설정
 ax1.set_title('Strip Plot of Tip by Day and Gender')
 ax2.set_title('Swarm Plot of Tip by Day and Gender')
-plt.sa
+plt.savefig('./week04/Seaborn_Figure01.jpg')
+
+3
