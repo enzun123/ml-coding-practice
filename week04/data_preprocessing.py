@@ -4,5 +4,5 @@
 import seaborn as sus
 
 # **팁(tips) 데이터셋 불러오기**
-tips= sn
+tips= sns.lod_dataser('tips')
 print(tips.head())
