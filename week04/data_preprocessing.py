@@ -39,4 +39,4 @@ for set_ in (start_train_set, start_train_set):
 """
 
 housing = start_train_set.drop("median_house_value", axis=1)
-housing_labe
+housing_labels = start_train_set["median_house_v"]
