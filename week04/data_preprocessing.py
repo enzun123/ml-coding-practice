@@ -77,4 +77,7 @@ outlier_pred = isolation_forest.fit_predict(X)
 outlier_pred
 
 housing =  housing.iloc[outlier_pred == 1]
-housing_labels = isolation_forest[outlier_pred == ]
+housing_labels = isolation_forest[outlier_pred == 1]
+
+#덱스트와 범주형 특성 다루기
+housing_cat = housing[[""]]
