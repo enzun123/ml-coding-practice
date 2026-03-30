@@ -71,8 +71,10 @@ sns.histplot(tips['tip'], bin=30, kde=True, color='skyblue')
 plt.title('Histogram with KDE for Tips')
 plt.savefig('./week04/Seaborn_Figure04.jpg')
 
-# **관계
-# joinplot( ) 그리기
+# **조인트 그래프**
+# joim
+# **관계 그래프**
+# pairplot( ) 그리기
 sns.pairplot(data=tips, hue='sex', diag_kind='hist', palette='husl')
 
 plt.suptitle('Pairplot with Histograms by Gender', y=1.05)
