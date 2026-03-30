@@ -19,4 +19,7 @@ def load_housing_data():
 
 housing = load_housing_data()
 
-# 
+# 테스트 새로 만들기
+from sklearn.model_selection import train_test_split
+
+housing[]
