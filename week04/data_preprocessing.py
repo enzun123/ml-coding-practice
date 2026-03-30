@@ -72,3 +72,4 @@ housing_tr[null_rows_idx].head()
 from sklearn.ensemble import IsolationForest
 
 Isolation_Forest = IsolationForest(random_state=42)
+outlier_pred = isolation_Forest
