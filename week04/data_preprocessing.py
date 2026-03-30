@@ -79,3 +79,6 @@ plt.savefig('./week04/Seaborn_Figure05.jpg')
 # **관계 그래프**
 # paorplot( ) 그리기
 sns.pairplot(data=tips, hue='sex', diag_kind='hist', palette='husl')
+
+plt.suptitle('Pairplot with Histograms by Gender', y=1.05)
+plt.savefig()
