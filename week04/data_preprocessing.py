@@ -56,4 +56,5 @@ housing_mum.head()
 
 imputer.fit(housing_mum)
 
-print(imputer.statistics_)          
+print(imputer.statistics_)          # imputer 결곽 값
+print(housing_mum.median(). values)
