@@ -57,4 +57,5 @@ housing_mum.head()
 imputer.fit(housing_mum)
 
 print(imputer.statistics_)          # imputer 결곽 값
-print(housing_mum.median(). values)
+print(housing_mum.median().values)  # 수동으로 계산한 중간값
+
