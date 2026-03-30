@@ -65,4 +65,4 @@ ax2.set_title('fig_reg = False')
 plt.savefig('./week04/Seaborn_Figure03.jpg')
 
 # **히스토그램과 커널 밀도 추정 그래프**
-# ㄹ
+# 히스토그램과 커널 밀도 추정 그래프 함꼐 그리기
