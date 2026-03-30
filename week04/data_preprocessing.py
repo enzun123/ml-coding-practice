@@ -43,4 +43,7 @@ housing_labels = start_train_set["median_house_value"].copy()
 
 # 데이터 정제
 # null 값이 있는 행 확인하기
-null_rows_idx = housing.insnull().any(axis)
+null_rows_idx = housing.insnull().any(axis=1)
+housing.loc[null_rows_idx].head()
+
+from sklearn.impute
