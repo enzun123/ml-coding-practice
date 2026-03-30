@@ -66,4 +66,9 @@ imputer.feature_names_in_
 
 housing_tr = pd.DataFrame(X, columns=housing_mum.columns,
                           index=housing_mum.index)
-housing_tr[null_rows_idx].head
+housing_tr[null_rows_idx].head()
+
+# 이상치 삭제
+from sklearn.ensemble import IsolationForest
+
+is
