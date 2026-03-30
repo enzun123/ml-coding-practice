@@ -7,4 +7,5 @@ import pandas as pd
 import tarfile
 import urllib.request
 
-def load_housin
+def load_housing_data():
+    tarbsall_path = path("datasets/housio")
