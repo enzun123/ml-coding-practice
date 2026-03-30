@@ -72,7 +72,7 @@ plt.title('Histogram with KDE for Tips')
 plt.savefig('./week04/Seaborn_Figure04.jpg')
 
 # **조인트 그래프**
-# joimplot( ) 그리기
+# jointplot( ) 그리기
 sns.jointplot(x='size', y='tip', data=tips, kind='scatter')
 plt.savefig('./week04/Seaborn_Figure05.jpg')
 
