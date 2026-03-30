@@ -59,7 +59,7 @@ imputer.fit(housing_num)
 print(imputer.statistics_)           # imputer 결과 값
 print(housing_num.median().values)   # 수동으로 계산한 중간값
 
-# 훈련 세트의 누락값을 imputer가 학스반 값으로 채우기
+# 훈련 세트의 누락값을 imputer가 학습반 값으로 채우기
 X = imputer.transform(housing_num)
 
 imputer.feature_names_in_
@@ -76,7 +76,7 @@ outlier_pred = isolation_forest.fit_predict(X)
 
 outlier_pred
 
-housing =  housing.iloc[outlier_pred == 1]
+housing =  housing.iloc[outlier_pred ==]
 housing_labels = housing_labels.iloc[outlier_pred == 1]
 
 #덱스트와 범주형 특성 다루기
