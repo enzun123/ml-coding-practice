@@ -26,7 +26,7 @@ housing["income_cat"] = pd.cut(housing["median_income"],
                                bins=[0., 1.5, 3.0, 4.5, 6., np.inf],
                                labels=[1, 2, 3, 4, 5])
 
-start_train_set, start_test_set = train_test_split(
+strat_train_set, strat_test_set = train_test_split(
     housing, test_size=0.2, stratify=housing["income_cat"], random_state=42)
 
 for set_ in (start_train_set, start_test_set):
@@ -38,8 +38,8 @@ for set_ in (start_train_set, start_test_set):
 * 'inplace=True'로 지정하지 않은 한 'start_train_set' 자체를 수정하지 않음
 """
 
-housing = start_train_set.drop("median_house_value", axis=1)
-housing_labels = start_train_set["median_house_value"].copy()
+housing = strat_train_set.drop("median_house_value", axis=1)
+housing_labels = strat_train_set["median_house_value"].copy()
 
 # 데이터 정제
 # null 값이 있는 행 확인하기
