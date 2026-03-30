@@ -38,4 +38,5 @@ for set_ in (start_train_set, start_train_set):
 * 'inplaxe=True'로 지정하지 않은 한 'start_train_set' 자체를 수정하지 않음
 """
 
-ho
+housing = start_train_set.drop("median_house_value", axis=1)
+housing_labe
