@@ -52,4 +52,6 @@ imputer = SimpleImputer(strategy="median")
 
 # 수치형 특성만 추출
 housing_mum = housing.select_dtypes(include=[np.number])
-housing
+housing_num.head()
+
+imputer
