@@ -48,4 +48,7 @@ housing.loc[null_rows_idx].head()
 
 from sklearn.impute import SimpleImputer
 
-imputer = SimpleImputer(s)
+imputer = SimpleImputer(strategy="median")
+
+# 수치형 특성만 추출
+housing_mum = hou
