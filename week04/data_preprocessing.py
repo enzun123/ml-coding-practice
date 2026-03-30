@@ -9,4 +9,6 @@ import urllib.request
 
 def load_housing_data():
     tarbsall_path = Path("datasets/housing.thgz")
-    if not tarbsall_path.i
+    if not tarbsall_path.is_file():
+        url = "https://github.com/ageron/data/raw/main/housing.tgz"
+        urllib
