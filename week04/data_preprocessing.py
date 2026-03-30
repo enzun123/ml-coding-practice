@@ -64,4 +64,6 @@ X = imputer.transform(housing_mum)
 
 imputer.feature_names_in_
 
-housing_tr = pd.DataFrame(X, columns=housing_mum.co)
+housing_tr = pd.DataFrame(X, columns=housing_mum.columns,
+                          index=housing_mum.index)
+housing_tr[null_rows_idx].head
