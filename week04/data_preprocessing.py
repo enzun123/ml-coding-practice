@@ -51,22 +51,22 @@ from sklearn.impute import SimpleImputer
 imputer = SimpleImputer(strategy="median")
 
 # 수치형 특성만 추출
-housing_mum = housing.select_dtypes(include=[np.number])
-housing_mum.head()
+housing_num = housing.select_dtypes(include=[np.number])
+housing_num.head()
 
-imputer.fit(housing_mum)
+imputer.fit(housing_num)
 
 print(imputer.statistics_)          # imputer 결곽 값
-print(housing_mum.median().values)  # 수동으로 계산한 중간값
+print(housing_num.median().values)  # 수동으로 계산한 중간값
 
 # 훈련 세트의 누락값을 imputer가 학스반 값으로 채우기
-X = imputer.transform(housing_mum)
+X = imputer.transform(housing_num)
 
 imputer.feature_names_in_
 
-housing_tr = pd.DataFrame(X, columns=housing_mum.columns,
-                          index=housing_mum.index)
-housing_tr[null_rows_idx].head()
+housing_tr = pd.DataFrame(X, columns=housing_num.columns,
+                          index=housing_num.index)
+housing_tr[null_rows_idx].head().
 
 # 이상치 삭제
 from sklearn.ensemble import IsolationForest
