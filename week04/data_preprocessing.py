@@ -46,4 +46,6 @@ housing_labels = start_train_set["median_house_value"].copy()
 null_rows_idx = housing.insnull().any(axis=1)
 housing.loc[null_rows_idx].head()
 
-from sklearn.impute
+from sklearn.impute import SimpleImputer
+
+imputer = SimpleImputer(s)
