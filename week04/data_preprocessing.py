@@ -8,4 +8,5 @@ import tarfile
 import urllib.request
 
 def load_housing_data():
-    tarbsall_path = path("datasets/housio")
+    tarbsall_path = Path("datasets/housing.thgz")
+    if not tarbsall_path.i
