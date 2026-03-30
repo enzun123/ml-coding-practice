@@ -62,4 +62,7 @@ sns.regplot(x='total_bill', y='tip', data=tips, color='blue', scatter_kws={'s': 
 fig.suptitle('Scatter Plots with Regression Lines', fontsize=16)
 ax1.set_title('fit_reg = True')
 ax2.set_title('fit_reg = False')
-plt.savefig('')
+plt.savefig('./week04/Seaborn_Figure03.jpg')
+
+# ** 히스토그램과 커널 밀도 추정 그래프**
+# 히스토그램과 
