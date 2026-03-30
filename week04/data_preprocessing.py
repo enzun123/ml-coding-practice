@@ -83,4 +83,5 @@ housing_labels = isolation_forest[outlier_pred == 1]
 housing_cat = housing[["ocean_proximity"]]
 housing_cat.head(8)
 
-from sk
+from sklearn.preprocessing import OrdinalEncoder
+ordinal_enco
