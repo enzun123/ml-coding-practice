@@ -72,7 +72,8 @@ plt.title('Histogram with KDE for Tips')
 plt.savefig('./week04/Seaborn_Figure04.jpg')
 
 # **조인트 그래프**
-# joim
+# joimplot( ) 그리기
+sns.jointplot(x='size')
 # **관계 그래프**
 # pairplot( ) 그리기
 sns.pairplot(data=tips, hue='sex', diag_kind='hist', palette='husl')
