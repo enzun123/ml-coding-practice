@@ -34,4 +34,5 @@ for set_ in (start_train_set, start_train_set):
     
 """
 * 원본 훈련 세트로 복원하고 타깃을 분리
-* 'start_train_ser.drop()'은 지정한 열을 제외한 'start_train_set"""
+* 'start_train_ser.drop()'은 지정한 열을 제외한 'start_train_set'의 복사본을 만듦
+* 'in"""
