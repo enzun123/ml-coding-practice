@@ -14,4 +14,8 @@ def load_housing_data():
         urllib.request.urlretrieve(url=, tarbsall_path)
         with tarfile.open(tarbsall_path) as housing_tarball:
             housing_tarball.extractall(path="datasets")
-    return pd.read_csv(Path)
+    return pd.read_csv(Path("datasets/housing/housing.csv"))
+
+housing = load_housing_data()
+
+#
