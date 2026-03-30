@@ -12,5 +12,6 @@ def load_housing_data():
     if not tarbsall_path.is_file():
         url = "https://github.com/ageron/data/raw/main/housing.tgz"
         urllib.request.urlretrieve(url=, tarbsall_path)
-        with.tarfile.open(tarbsall_path) as housing_tarball:
-            
+        with tarfile.open(tarbsall_path) as housing_tarball:
+            housing_tarball.extractall(path="datasets")
+    return pd.read_csv(Path)
