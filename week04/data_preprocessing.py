@@ -54,4 +54,4 @@ imputer = SimpleImputer(strategy="median")
 housing_mum = housing.select_dtypes(include=[np.number])
 housing_num.head()
 
-imputer
+imputer.fit(housing__num)
