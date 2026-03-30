@@ -71,5 +71,5 @@ housing_tr[null_rows_idx].head()
 # 이상치 삭제
 from sklearn.ensemble import IsolationForest
 
-Isolation_Forest = IsolationForest(random_state=42)
-outlier_pred = isolation_Forest
+isolation_Forest = IsolationForest(random_state=42)
+outlier_pred = isolation_Forest.fit_predict(x)
