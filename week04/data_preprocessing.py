@@ -30,5 +30,7 @@ housing_labels = strat_train_set["median_house_value"].copy()
 
 # 데이터 정제
 # null 값이 있는 행 확인하기
-null_row_idx = housing.isnull().any(axis-1)
-    
+null_row_idx = housing.isnull().any(axis=1)
+housing.loc[null_row_idx].head()    
+
+
