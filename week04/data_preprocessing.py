@@ -44,4 +44,4 @@ housing_num.head()
 imputer.fit(housing_num)
 
 print(imputer.statistics_)          # imputer 결과 값
-print(housing_num.median(),va)
+print(housing_num.median().values)  # 수동으로 계
