@@ -42,3 +42,5 @@ housing_num = housing.select_dtypes(include=[np.number])
 housing_num.head()
 
 imputer.fit(housing_num)
+
+print(imputer.statistics_)        
