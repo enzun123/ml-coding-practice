@@ -10,7 +10,7 @@ housing = pd.read_csv('./week04/housing.csv')       # 오류 발생 시, ./housi
 from sklearn.model_selection import train_test_split
 
 housing["income_cat"] = pd.cut(housing["median_income"],
-                               bin6s=[0., 1.5, 3.0, 4.5, 6., np.inf],
+                               bins=[0., 1.5, 3.0, 4.5, 6., np.inf],
                                labels=[1, 2, 3, 4, 5])
 
 strat_train_set, strat_test_set = train_test_split(
@@ -20,8 +20,8 @@ for set_ in (strat_train_set, strat_test_set):
     set_.drop("income_cat", axis=1, inplace=True)
     
 """
-* 원본 훈련 세트로 복원하고 타깃을 분라
-* 'strat_train_ser.drop()'은 지정한 열을 제외한 'strat_train_set'의 복사본을 만듦
+* 원본 훈련 세트로 복원하고 타깃을 분리
+* 'strat_train_set.drop()'은 지정한 열을 제외한 'strat_train_set'의 복사본을 만듦
 * 'inplace=True'로 지정하지 않은 한 'strat_train_set' 자체를 수정하지 않음
 """
     
@@ -30,8 +30,8 @@ housing_labels = strat_train_set["median_house_value"].copy()
 
 # 데이터 정제
 # null 값이 있는 행 확인하기
-null_row_idx = housing.isnull().any(axis=1)
-housing.loc[null_row_idx].head()    
+null_rows_idx = housing.isnull().any(axis=1)
+housing.loc[null_rows_idx].head()    
 
 from sklearn.impute import SimpleImputer
 
@@ -46,14 +46,14 @@ imputer.fit(housing_num)
 print(imputer.statistics_)          # imputer 결과 값
 print(housing_num.median().values)  # 수동으로 계산한 중간값
 
-# 훈련 세트의 누락값ㅇ,ㄹ imputer가 학습한 값으로 채우기
+# 훈련 세트의 누락값을 imputer가 학습한 값으로 채우기
 X = imputer.transform(housing_num)
 
 imputer.feature_names_in_
 
 housing_tr = pd.DataFrame(X, columns=housing_num.columns,
                           index=housing_num.index)
-housing_tr.loc[null_row_idx].head()
+housing_tr.loc[null_rows_idx].head()
 
 # 이상치 삭제
 from sklearn.ensemble import IsolationForest
@@ -77,4 +77,4 @@ housing_cat_encoded = ordinal_encoder.fit_transform(housing_cat)
 
 housing_cat_encoded[:8]
 
-o
+ordinal_encoder.categories_
