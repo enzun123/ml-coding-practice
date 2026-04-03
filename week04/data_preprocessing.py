@@ -16,7 +16,7 @@ housing["income_cat"] = pd.cut(housing["median_income"],
 strat_train_set, strat_test_set = train_test_split(
     housing, test_size=0.2, stratify=housing["income_cat"], random_state=42)
 
-for set_ in (start_train_set, start_test_set):
+for set_ in (strat_train_set, strat_test_set):
     set_.drop("income_cat", axis=1, inplace=True)
     
     """
@@ -24,4 +24,6 @@ for set_ in (start_train_set, start_test_set):
     * 'strat_train_ser.drop()'은 지정한 열을 제외한 'strat_train_set'의 복사본을 만듦
     * 'inplace=True'로 지정하지 않은 한 'strat_train_set' 자체를 수정하지 않음
     """
+    
+    housing
     
