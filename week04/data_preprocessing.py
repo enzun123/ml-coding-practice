@@ -19,6 +19,8 @@ start_train_set, start_test_set = train_test_split(
 for set_ in (start_train_set, start_test_set):
     set_.drop("income_cat", axis=1, inplace=True)
     
-    """*
+    """
+    * 원본 훈련 세트로 복원하고 타깃을 분라
+    * '
     """
     
