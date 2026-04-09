@@ -60,7 +60,7 @@ def getRequestUrl(url):
     try:
         response = urllib.request.urlopen(req)
         if response.getcode() == 200:
-            print("[%s] url Resquest Success" % datetime.datetime.now())
+            print("[%s] Url Resquest Success" % datetime.datetime.now())
             return response.read().decode('utf-8')
     except Exception as e:
         print(e)
