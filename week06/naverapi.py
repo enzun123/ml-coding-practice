@@ -28,5 +28,6 @@ def main():
     print('전체 검색 : %d 건' %total)
     
     with open('%s_naver%s.json' % (srcText, node), 'w', encoding = 'utf8') as outfile:
-        jsonFile = json.dum
+        jsonFile = json.dumps(jsonResult, indent = 4, sort_keys = True,
+                              ensure_ascii = )
 
