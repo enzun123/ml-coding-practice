@@ -22,4 +22,5 @@ def main():
             cnt += 1
             getPostData(post, jsonResult, cnt)              # [CODE 3]
             
-        start = jsonResponse['start']
+        start = jsonResponse['start'] + jsonResponse['display']
+        jsonResponse = getNaverSe
