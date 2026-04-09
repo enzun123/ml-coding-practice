@@ -20,4 +20,4 @@ def main():
     while ((jsonResponse != None) and (jsonResponse['display'] != 0)):
         for post in jsonResponse['items']:
             cnt += 1
-            getPost Data
+            getPostData(post, jsonResult, cnt)              # 
