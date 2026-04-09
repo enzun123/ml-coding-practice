@@ -65,4 +65,7 @@ def getRequestUrl(url):
     except Exception as e:
         print(e)
         print("[%s] Error for Url : %s" % (datetime.datetime.now(), url))
-        
+        return None
+    
+    
+def getPostData(post, jsonResult)
