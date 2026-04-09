@@ -64,4 +64,5 @@ def getRequestUrl(url):
             return response.read().decode('utf-8')
     except Exception as e:
         print(e)
-        print("[%s] Error for Url")
+        print("[%s] Error for Url : %s" % (datetime.datetime.now(), url))
+        
