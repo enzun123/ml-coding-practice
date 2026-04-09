@@ -60,11 +60,11 @@ def getRequestUrl(url):
     try:
         response = urllib.request.urlopen(req)
         if response.getcode() == 200:
-            print("[%s] Url Request Success" % datetime.datetime.now())
+            print("[%s] URL Request Success" % datetime.datetime.now())
             return response.read().decode('utf-8')
     except Exception as e:
         print(e)
-        print("[%s] Error for Url : %s" % (datetime.datetime.now(), url))
+        print("[%s] Error for URL : %s" % (datetime.datetime.now(), url))
         return None
     
     
