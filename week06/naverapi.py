@@ -61,4 +61,5 @@ def getRequestUrl(url):
         response = urllib.request.urlopen(req)
         if response.getcode() == 200:
             print("[%s] url Resquest Success" % datetime.datetime.now())
-            return
+            return response.read().decode('utf-8')
+    except E
