@@ -29,5 +29,7 @@ def main():
     
     with open('%s_naver%s.json' % (srcText, node), 'w', encoding = 'utf8') as outfile:
         jsonFile = json.dumps(jsonResult, indent = 4, sort_keys = True,
-                              ensure_ascii = )
+                              ensure_ascii = False)
+        
+        outfile.write(jsonFile)
 
