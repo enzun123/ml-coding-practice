@@ -8,7 +8,7 @@ client_secret = 'JcgBA04di9'
 
 def main():
     
-    ndoe = 'news'                                           # 크롤링할 대상
+    node = 'news'                                           # 크롤링할 대상
     srcText = input('검색어를 입력하세요')
     
     cnt = 0
