@@ -14,5 +14,5 @@ def main():
     cnt = 0
     jsonResult = []
     
-    jsonResponse
+    jsonResponse = gerNaverSearch(node, srcText, 1,1)
 
