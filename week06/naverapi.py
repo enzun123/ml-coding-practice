@@ -4,5 +4,10 @@ import datetime
 import json
 
 client_id = 'awnxWLCBh_E1xKOkA67P'
-client_secret = ''
+client_secret = 'JcgBA04di9'
+
+def main():
+    
+    ndoe = 'news'
+    srcText
 
