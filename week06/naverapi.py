@@ -12,5 +12,7 @@ def main():
     srcText = input('검색어를 입력하세요')
     
     cnt = 0
+    jsonResult = []
     
+    jsonResponse
 
