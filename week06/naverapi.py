@@ -8,6 +8,6 @@ client_secret = 'JcgBA04di9'
 
 def main():
     
-    ndoe = 'news'
-    srcText
+    ndoe = 'news'                                           #
+    srcText = input('검색어를 입력하세요')
 
