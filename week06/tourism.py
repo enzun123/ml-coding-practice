@@ -38,4 +38,5 @@ def getTourismStatsService(nat_cd, ed_cd, nStartYear, nEndYear):
             if (jsonData['response']['header']['resultMsg'] == 'OK'):
                 #데이터기 없는 마지막 항목인 경우 ----------------------------
                 if jsonData['response']['body']['items'] == '':
-                    dataEND = "{0}{1:0>@}"
+                    dataEND = "{0}{1:0>2}".format(str(year), str(month-1))
+                    print("데이터없음")
