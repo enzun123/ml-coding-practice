@@ -18,4 +18,4 @@ def main():
     nEndYear = int(input('데이터를 몇 년까지 수집할까요? : '))
     ed_cd = "E"
     
-    jsonResult, result, na
+    jsonResult, result, natName, dateEnd = getTour
