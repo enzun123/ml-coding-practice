@@ -57,12 +57,12 @@ def getTourismStatsService(nat_cd, ed_cd, nStartYear, nEndYear):
 
 """### [CODE 2]"""
 
-def getTourismStatsItem(yyyymm, nat_cd, en_cd):
+def getTourismStatsItem(yyyymm, nat_cd, ed_cd):
     service_url = "http://openapi.tour.go.kr/openapi/service/EdrcntTourismStatsService/getEdrcntTourismStatsList"
     parameters =  "?_type=json&serviceKey=" + ServiceKey        #인증키
     parameters += "&YM=" + yyyymm 
     parameters += "&NAT_CD=" + nat_cd
-    parameters += "ED_CD=" + en_cd
+    parameters += "ED_CD=" + ed_cd
     
     url = service_url + parameters
     
