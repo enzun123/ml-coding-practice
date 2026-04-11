@@ -41,4 +41,5 @@ def getTourismStatsService(nat_cd, ed_cd, nStartYear, nEndYear):
                     dataEND = "{0}{1:0>2}".format(str(year), str(month-1))
                     print("데이터없음... \n제공되는 통계 데이터는 %s년 %s 월까지 입니다." % (str(year), str(month-1)))
                     break
-                #jsonData를 출
+                #jsonData를 출력하여 확인............................................
+                print(json.dumps(jsonData, ))
