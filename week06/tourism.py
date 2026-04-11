@@ -88,5 +88,3 @@ def getRequestUrl(url):    #[CODE 1]
         return None
     
 main()
-            
-    
