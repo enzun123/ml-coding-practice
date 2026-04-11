@@ -75,6 +75,7 @@ def getTourismStatsItem(yyyymm, nat_cd, en_cd):
     
 """### [CODE 1]"""
 
-def getResquestURL(url):    #[CODE 1]
-    req = urllib.request.        
+def getRequestURL(url):    #[CODE 1]
+    req = urllib.request.Request(url)
+            
     
