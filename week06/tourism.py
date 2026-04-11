@@ -44,4 +44,6 @@ def getTourismStatsService(nat_cd, ed_cd, nStartYear, nEndYear):
                 #jsonData를 출력하여 확인............................................
                 print(json.dumps(jsonData, indent = 4, sort_keys = True, ensure_ascii = False))
                 
-                natName = jsonData
+                natName = jsonData['response']['body']['items']['item']['natKorNm']
+                natName = natName.replace(' ', '')
+                num = 
