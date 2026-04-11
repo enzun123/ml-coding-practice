@@ -21,9 +21,9 @@ def main():
     jsonResult, result, natName, dataEND = getTourismStatsService(nat_cd, ed_cd, nStartYear, nEndYear)  #[CODE 3]
      
     #파일저장 : csv 파일
-    columns = ["입극자국가", "국가코드", "입국연월", "입국자 수"]
+    columns = ["입국자국가", "국가코드", "입국연월", "입국자 수"]
     result_df = pd.DataFrame(result, columns = columns)
-    result_df.to_csv('./%s_%s_%s_%s.csv' % (natName, ed_cd, nStartYear, dataEND), index = False, encoding = 'cp949')
+    result_df.to_csv('./%s_%s_%d_%s.csv' % (natName, ed_cd, nStartYear, dataEND), index = False, encoding = 'cp949')
     
 """### [CODE 3]"""
 
