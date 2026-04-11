@@ -54,3 +54,7 @@ def getTourismStatsService(nat_cd, ed_cd, nStartYear, nEndYear):
                 result.append([natName, nat_cd, yyyymm, num])
                 
     return (jsonResult, result, natName, ed)
+
+"""### [CODE 2]"""
+
+def getTourismStatsItem(yyyy)
