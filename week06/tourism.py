@@ -68,6 +68,10 @@ def getTourismStatsItem(yyyymm, nat_cd, en_cd):
     
     responseDecode = getRequestURL(url)
     if (responseDecode == None):
-        
+        return None
+    else:
+        return json.loads(responseDecode)
+    
+
         
     
