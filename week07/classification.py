@@ -79,4 +79,8 @@ print(precision_score(y_train_5, y_train_pred))  # == 3530 / (687 + 3530)
 
 print(recall_score(y_train_5, y_train_pred))  # == 3530 / (1891 + 3530)
 
-from sklearn.metrics
+from sklearn.metrics import f1_score
+
+print(f1_score(y_train_5, y_train_pred))
+
+# ROC rh
