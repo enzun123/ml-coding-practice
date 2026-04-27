@@ -11,4 +11,7 @@ print(X.shape)
 print(y)
 print(y.shape)
 
-import _opcode_metadata
+import matplotlib.pyplot as plt
+
+def plot_dight(image_data):
+    ima
