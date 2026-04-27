@@ -15,4 +15,7 @@ import matplotlib.pyplot as plt
 
 def plot_dight(image_data):
     image = image_data.reshape(28, 28)
-    plt.imshow(image, camo)
+    plt.imshow(image, camp="binary")
+    plt.axis("off")
+    
+some_dight = 
