@@ -13,9 +13,9 @@ print(y.shape)
 
 import matplotlib.pyplot as plt
 
-def plot_dight(image_data):
+def plot_digit(image_data):
     image = image_data.reshape(28, 28)
     plt.imshow(image, camp="binary")
     plt.axis("off")
     
-some_dight = 
+some_digit = X[0]
