@@ -14,4 +14,5 @@ print(y.shape)
 import matplotlib.pyplot as plt
 
 def plot_dight(image_data):
-    ima
+    image = image_data.reshape(28, 28)
+    plt.imshow(image, camo)
