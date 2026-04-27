@@ -33,4 +33,4 @@ plt.subplots_adjust(wspace=0, hspace=0)
 plt.show()
 
 # train/testb 데이터셋 나누기
-X_train, X_test, y_train
+X_train, X_test, y_train, y_test = X[60000], X[60000:]
