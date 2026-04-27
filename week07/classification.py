@@ -32,7 +32,7 @@ for idx, image_data in enumerate(X[:100]):
 plt.subplots_adjust(wspace=0, hspace=0)
 plt.show()
 
-# train/testb 데이터셋 나누기
+# train/test 데이터셋 나누기
 X_train, X_test, y_train, y_test = X[:60000], X[60000:], y[:60000], y[60000:]
 
 # 이진 분류기 훈련
@@ -46,7 +46,7 @@ sgd_clf.fit(X_train, y_train_5)
 
 sgd_clf.predict([some_digit])
 
-# 성능 측정 - 교차 검증을 사용한 정확도 축정
+# 성능 측정 - 교차 검증을 사용한 정확도 정
 from sklearn.model_selection import cross_val_score
 
 cross_val_score(sgd_clf, X_train, y_train_5, cv=3, scoring="accuracy")
