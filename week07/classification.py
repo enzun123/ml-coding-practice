@@ -98,4 +98,5 @@ forest_clf = RandomForestClassifier(random_state=42)
 y_probas_forest = cross_val_predict(forest_clf, X_train, y_train_5, cv=3,
                                     method="predict_proba")
 
-y_scores_forest = y_probas_forest[:]
+y_scores_forest = y_probas_forest[:, 1]
+y_train_pred_forest = y_probas_forest[:, 1] >= 
