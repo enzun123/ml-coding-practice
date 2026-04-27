@@ -70,4 +70,7 @@ cm = confusion_matrix(y_train_5, y_train_pred)
 print(cm)
 
 y_train_perfect_presicctions = y_train_5  # 완벽한 분류기일 경우
-print(confusion_matrix(y_tra))
+print(confusion_matrix(y_train_5, y_train_perfect_presicctions))
+
+# 정밀도와 재현율
+from sklearn.me
