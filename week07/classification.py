@@ -32,4 +32,4 @@ for idx, image_data in enumerate(x[:100]):
 plt.subplots_adjust(wspace=0, hspace=0)
 plt.show()
 
-# train/testb 
+# train/testb 데이터셋 나누기
