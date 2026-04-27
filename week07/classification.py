@@ -57,4 +57,7 @@ dummy_clf = DummyClassifier()
 dummy_clf.fit(X_train, y_train_5)
 print(any(dummy_clf.predict(X_train)))
 
-print(cross_val_score(dummy_clf, X_train, y_train_5,.))
+print(cross_val_score(dummy_clf, X_train, y_train_5, cv=3, scoring="accurary"))
+
+# 오차 행렬
+from sklearn.model_selection im
