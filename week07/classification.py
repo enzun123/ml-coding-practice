@@ -102,4 +102,5 @@ y_scores_forest = y_probas_forest[:, 1]
 y_train_pred_forest = y_probas_forest[:, 1] >= 0.5  # 양성 확률 ≥ 50%
 
 print(f1_score(y_train_5, y_train_pred_forest))
-print(roc_auc_score)
+print(roc_auc_score(y_train_5, y_scores_forest))
+print(precision_score(y_train_5, y_scores_))
