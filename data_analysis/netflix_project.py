@@ -69,4 +69,4 @@ age_group_dic = {
     'TV-MA': 'Adults'
 }
 
-# map
+# map 함수를 이용항
