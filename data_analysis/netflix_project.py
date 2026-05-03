@@ -215,4 +215,5 @@ cmap = plt.matplotlib.colors.LinearSegmentedColormap.from_list('', ['#221f1f','#
 wordcloud = WordCloud(background_color = 'white', width = 1400, height = 1400,
                       max_words = 170, mask = mask, colormap=cmap).generate(text)
 
-p
+plt.suptitle('Keywords in the description of Movies and TV shows',
+             fontweighr='bold')
