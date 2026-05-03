@@ -73,3 +73,6 @@ age_group_dic = {
 # .map( ) : 사전에 정의한 내용을 변수에 적용
 netflix['age_group'] = netflix['age_group'].map(age_group_dic)
 netflix.head(2)
+
+# 데이터 전처리 완료한 데이터셋 csv 파일로 저장 
+# index=Fals
