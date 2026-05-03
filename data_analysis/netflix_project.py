@@ -25,4 +25,5 @@ for i in netflix.columns :
     if missingValueRate > 0 :
         print("{} null rate: {}%".format(i,round(missingValueRate, 2)))
         
-# .fillna
+# .fillna( ) : 결측치를 다른 값으로 대체하여 처리
+# 결측치 비율 : coun
