@@ -202,4 +202,4 @@ plt.figure(figsize=(15, 5))
 # wordcloud에서 작동할 수 있도록 데이터프레임을 list로 1차 변환 시키고 str(문자열)로 2차 변환
 text = str(list(netflix['description']))
 
-# mask =
+# mask : 단어를 그릴 위치 설정, 휜색(#FFFFFF) 하
