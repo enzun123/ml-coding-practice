@@ -40,7 +40,7 @@ netflix['cast'] = netflix['cast'].replace(np.nan, 'No Data')
 netflix.dropna(axis = 0, inplace=True)
 
 # .info() : 열에 대한 요약 정보 확인
-# 8807 rows(원본 데이터 행 개수) -17 rows(결측치 행) = 8790 rows(결측치가 제거된 행 개수)
+# 8807 rows(원본 데이터 행 개수) - 17 rows(결측치 행) = 8790 rows(결측치가 제거된 행 개수)
 netflix.info()
 
 # 데이터프레임의 각 컬럼별 결측치 개수 반환
@@ -75,7 +75,7 @@ netflix['age_group'] = netflix['age_group'].map(age_group_dic)
 netflix.head(2)
 
 # 데이터 전처리 완료한 데이터셋 csv 파일로 저장 
-# index=False: 데이터 프레임의 인덱스 열을 포함하지 않겠다는 뜻
+# index=False: 데이터프레임의 인덱스 열을 포함하지 않겠다는 뜻
 netflix.to_csv('netflix_preprocessed.csv', index=False)
 
 import numpy as np
