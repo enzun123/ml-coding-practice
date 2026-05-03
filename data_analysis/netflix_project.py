@@ -172,4 +172,7 @@ netflix_age_country_unstack = netflix_age_country_unstack.loc[age_order, country
 
 # 결측치 0으로 처리
 netflix_age_country_unstack = netflix_age_country_unstack.fillna(0)
-netflix-af
+netflix_age_country_unstack
+
+# 나이 그룹에 따른 국가별 넷플릭스 콘텐츠 비율 구하기
+netflix_age_country_unstack = netflix_age_country
