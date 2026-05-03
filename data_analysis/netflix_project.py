@@ -149,4 +149,5 @@ pd.set_option('display.max_rows', None)
 netflix['country'] = netflix['country'].str.split(', ')
 netflix['country']
 
-# 파이썬 리스트로 바꾼 country 열의 값에 explode( ) 함수를 적용하여 개별 해
+# 파이썬 리스트로 바꾼 country 열의 값에 explode( ) 함수를 적용하여 개별 행으로 분리
+netflix_age_country = netflix.explode()
