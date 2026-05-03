@@ -90,4 +90,7 @@ netflix = pd.read_csv('netflix_preprocessed.csv')
 sns.palplot(['#221f1f', '#b20710', '#e50914', '#f5f5f1'])
 
 # 제목 정하기
-plt.title('Netflix brand palette', loc='left', fontfamily='serif', fontsize=1)
+plt.title('Netflix brand palette', loc='left', fontfamily='serif', fontsize=15, y=1.2)
+plt.show()
+
+ne
