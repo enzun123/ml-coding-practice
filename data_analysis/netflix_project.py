@@ -69,4 +69,4 @@ age_group_dic = {
     'TV-MA': 'Adults'
 }
 
-# map 함수를 이용항
+# map 함수를 이용하여 rating 컬럼의 값을 딕셔너리를 기반으로 변환하여 age_group 컬럼에 
