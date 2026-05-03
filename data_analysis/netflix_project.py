@@ -39,7 +39,7 @@ netflix['cast'] = netflix['cast'].replace(np.nan, 'No Data')
 # 결측치 비율 : date_added(0.11%), rating(0.05%), duration(0.03%)
 netflix.dropna(axis = 0, inplace=True)
 
-# .info() : 열에 대란 요약 정보 확인
+# .info() : 열에 대한 요약 정보 확인
 # 8807 rows(원본 데이터 행 개수) -17 rows(결측치 행) = 8790 rows(결측치가 제거된 행 개수)
 netflix.info()
 
@@ -117,7 +117,7 @@ netflix.head(3)
 genres = netflix['listed_in'].str.split(', ', expand=True).stack().value_counts()
 genres
 
-# [1단계] listed_in 열에 있는 장르를 쉼표료 분활하기
+# [1단계] listed_in 열에 있는 장르를 쉼표료 분할하기
 # 예시) 인덱스 1의 listed_in 열 값 : International TV Shows, TV Dramas, TV Mysteries
 netflix['listed_in'].str.split(', ',expand=True)
 
@@ -203,7 +203,7 @@ plt.figure(figsize=(15, 5))
 # wordcloud에서 작동할 수 있도록 데이터프레임을 list로 1차 변환 시키고 str(문자열)로 2차 변환
 text = str(list(netflix['description']))
 
-# mask : 단어를 그릴 위치 설정, 휜색(#FFFFFF) 항목은 마스킹된 것으로 간주
+# mask : 단어를 그릴 위치 설정, 후색(#FFFFFF) 항목은 마스킹된 것으로 간주
 # 로고 이미지 열고 넘파이 배열로 변환
 mask = np.array(Image.open('netflix_logo.jpg'))
 
