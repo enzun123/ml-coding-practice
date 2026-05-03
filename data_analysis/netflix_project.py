@@ -27,4 +27,4 @@ for i in netflix.columns :
         
 # .fillna( ) : 결측치를 다른 값으로 대체하여 처리
 # 결측치 비율 : country(9.44%)
-netflix['country'] = netflix('country')
+netflix['country'] = netflix('country').fillna('No Data')
