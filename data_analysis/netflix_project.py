@@ -171,4 +171,5 @@ country_order = ['United States', 'India', 'United Kingdom', 'Canada', 'Japan',
 netflix_age_country_unstack = netflix_age_country_unstack.loc[age_order, country_order]
 
 # 결측치 0으로 처리
-n
+netflix_age_country_unstack = netflix_age_country_unstack.fillna(0)
+netflix-af
