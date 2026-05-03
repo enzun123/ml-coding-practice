@@ -119,4 +119,6 @@ genres
 
 # [1단계] listed_in 열에 있는 장르를 쉼표료 분활하기
 # 예시) 인덱스 1의 listed_in 열 값 : International TV Shows, TV Dramas, TV Mysteries
-netflix['listed_in'].str.split(', ')
+netflix['listed_in'].str.split(', ',expand=True)
+
+# [2단계] .stacl( )을 사용하면 여러 
