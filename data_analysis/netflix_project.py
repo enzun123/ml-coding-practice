@@ -99,4 +99,7 @@ netflix['title'].str.contains('squid game', na=False, case=False)
 netflix[netflix['title'].str.contains('Squid Game', na=False, case=False)]
 
 type_counts = netflix['type'].value_counts()
-print(typ)
+print(type_counts)
+
+# 5 x 5 크기의 플롯 만들기
+plt.figure(figsize=(5, 5))
