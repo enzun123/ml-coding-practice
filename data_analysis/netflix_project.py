@@ -195,4 +195,6 @@ plt.show
 # WordCloud : 워드 클라우드 생성에 필요한 모듈
 # Image : 워드 클라우드를 원하는 형태로 그리기 위해 그림을 불러오는 패키지
 from wordcloud import WordCloud
-fr
+from PIL import Image
+
+plt.figure(figsize=)
