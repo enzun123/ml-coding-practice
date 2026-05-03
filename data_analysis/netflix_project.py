@@ -121,7 +121,7 @@ genres
 # 예시) 인덱스 1의 listed_in 열 값 : International TV Shows, TV Dramas, TV Mysteries
 netflix['listed_in'].str.split(', ',expand=True)
 
-# [2단계] .stacl( )을 사용하면 여러 열로 구성한 데이터프레임을 1개의 열로 만들어 쌓음
+# [2단계] .stack )을 사용하면 여러 열로 구성한 데이터프레임을 1개의 열로 만들어 쌓음
 # 예시) 인덱스 1의 listed_in 열 값 : International TV Shows, TV Dramas, TV Mysteries
 netflix['listed_in'].str.split(', ', expand=True).stack()
 
