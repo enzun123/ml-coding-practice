@@ -119,7 +119,7 @@ genres
 
 # [1단계] listed_in 열에 있는 장르를 쉼표로 분할하기
 # 예시) 인덱스 1의 listed_in 열 값 : International TV Shows, TV Dramas, TV Mysteries
-netflix['listed_in'].str.split(', ',expand=True)
+netflix['listed_in'].str.split(', ', expand=True)
 
 # [2단계] .stack( )을 사용하면 여러 열로 구성한 데이터프레임을 1개의 열로 만들어 쌓음
 # 예시) 인덱스 1의 listed_in 열 값 : International TV Shows, TV Dramas, TV Mysteries
@@ -200,7 +200,7 @@ from PIL import Image
 
 plt.figure(figsize=(15, 5))
 
-# wordcloud에서 작동할 수 있도록 데이터프레임을 list로 1차 변환 시키고 str(문자열)로 2차 변환
+# wordcolud에서 작동할 수 있도록 데이터프레임을 list로 1차 변환 시키고 str(문자열)로 2차 변환
 text = str(list(netflix['description']))
 
 # mask : 단어를 그릴 위치 설정, 흰색(#FFFFFF) 항목은 마스킹된 것으로 간주
