@@ -192,4 +192,6 @@ plt.title('Here we see interesting differences between countries. Most shows in 
 plt.show
 
 # 넷플릭스 데이터의 description 열 이용한 워드 클라우드 생성
-# WordCloud : 워드 클라우드 생성에 필요하
+# WordCloud : 워드 클라우드 생성에 필요한 모듈
+# Image : 워드 클라우드를 원하는 형태로 그리기 위해 그림을 불러오는 패키지
+from word
