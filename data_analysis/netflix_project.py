@@ -29,4 +29,4 @@ for i in netflix.columns :
 # 결측치 비율 : country(9.44%)
 netflix['country'] = netflix('country').fillna('No Data')
 
-# .replace(np.)
+# .replace(np.man, 'b') : 
