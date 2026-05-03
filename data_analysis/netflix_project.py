@@ -163,4 +163,5 @@ netflix_age_country_unstack
 # 특정 나이 구룹에 따른 특정 나라별 콘텐츠로 필터링
 # 연령, 국가 리스트
 are_order = ['All', 'Order Kids', 'Teens', 'Adults']
-country_order = ['United States', 'India', 'United Kingdom', ]
+country_order = ['United States', 'India', 'United Kingdom', 'Canada', 'Japan',
+                 'France', 'Soutj Ko']
