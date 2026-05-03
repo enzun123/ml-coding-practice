@@ -203,7 +203,7 @@ plt.figure(figsize=(15, 5))
 # wordcloud에서 작동할 수 있도록 데이터프레임을 list로 1차 변환 시키고 str(문자열)로 2차 변환
 text = str(list(netflix['description']))
 
-# mask : 단어를 그릴 위치 설정, 후색(#FFFFFF) 항목은 마스킹된 것으로 간주
+# mask : 단어를 그릴 위치 설정, 흰색(#FFFFFF) 항목은 마스킹된 것으로 간주
 # 로고 이미지 열고 넘파이 배열로 변환
 mask = np.array(Image.open('netflix_logo.jpg'))
 
@@ -222,6 +222,6 @@ plt.suptitle('Keywords in the description of Movies and TV shows',
 # plt.imshow( ) : array에 색을 채워서 이미지로 표시
 plt.imshow(wordcloud)
 
-# 촉 감추기
+# 축 감추기
 plt.axis('off')
 plt.show()
