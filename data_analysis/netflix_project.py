@@ -30,4 +30,5 @@ for i in netflix.columns :
 netflix['country'] = netflix('country').fillna('No Data')
 
 # .replace(np.man, 'b') : 결측치를 문자열 바꾸기 함수를 통해 처리
-# 결측치 비율 : director(29.91%), cast(9.37)
+# 결측치 비율 : director(29.91%), cast(9.37%)
+netflix['director'] = netflix[]
