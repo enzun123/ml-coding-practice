@@ -153,4 +153,5 @@ netflix['country']
 netflix_age_country = netflix.explode('country')
 netflix_age_country
 
-# title열의 값이 'Sankofa'인 행 전체를 확인하여 country 열과 age_grou
+# title열의 값이 'Sankofa'인 행 전체를 확인하여 country 열과 age_group 열의 값이 어떻게 이루어져 있는지 확인
+netflix_age_country[netflix_age_country]
