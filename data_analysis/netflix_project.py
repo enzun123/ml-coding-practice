@@ -210,3 +210,5 @@ mask = np.array(Image.open('netflix_logo.jpg'))
 # 워드 클라우드 색상맵 만들기
 cmap = plt.matplotlib.colors.LinearSegmentedColormap.from_list('', ['#221f1f','#b20710'])
 
+# 워드 클라우드 생성
+# WordCloud( ).generat
