@@ -35,4 +35,5 @@ netflix['director'] = netflix['director'].replace(np.nan, 'No Data')
 netflix['cast'] = netflix['cast'].replace(np.nan, 'No Data')
 
 # .dropna(axis = 0) : 결측치가 있는 행 전체 제거
-# 원복 객체를 수정하려au
+# 원복 객체를 수정하려면 inplace = True 옵션 추가
+# 결측치 비율 : date_added(0.11%), ra
