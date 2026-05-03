@@ -10,4 +10,7 @@ import seaborn as sns
 netflix = pd.read_csv('netflux_titles.csv')
 netflix.head()
 
-#.
+# .columns : 열 이름 확인
+list(netflix.columns)
+
+# .hea
