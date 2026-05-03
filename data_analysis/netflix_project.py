@@ -181,7 +181,7 @@ netflix_age_country_unstack
 plt.figure(figsize=(15, 5))
 
 # 사용자 정의 컬러맵 만들기
-cmap = plt.matplotlib.color.LinearSegmentedColormap.from_list('',['#221f1f','#b20710','#f5f5f1'])
+cmap = plt.matplotlib.colors.LinearSegmentedColormap.from_list('',['#221f1f','#b20710','#f5f5f1'])
 
 sns.heatmap(netflix_age_country_unstack, cmap = cmap, linewidths=2.5, annot=True, fmt='.0%')
 
@@ -189,7 +189,7 @@ plt.suptitle('Target ages proportion of total content bt country',
              fontweight='bold', fontfamily='serif', fontsize=15)
 plt.title('Here we see interesting differences between countries. Most shows in South Korea are targeted to adults, for instance.',
           fontsize=12, fontfamily='serif')
-plt.show
+plt.show()
 
 # 넷플릭스 데이터의 description 열 이용한 워드 클라우드 생성
 
