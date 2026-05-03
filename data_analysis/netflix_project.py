@@ -185,4 +185,5 @@ cmap = plt.matplotlib.color.LinearSegmentedColormap.from_list('',['#221f1f','#b2
 
 sns.heatmap(netflix_age_country_unstack, cmap = cmap, linewidths=2.5, annot=True, fmt='.0%')
 
-plt.suptitle('Target ages proportion of total content b')
+plt.suptitle('Target ages proportion of total content bt country',
+             fontweight='bold', fontfamily=)
