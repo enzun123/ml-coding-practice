@@ -5,3 +5,6 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+
+# 새션 저장소에 업로드한 csv 파일을 읽어 변수에 할당
+netflix = pd.read
