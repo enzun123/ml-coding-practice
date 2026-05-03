@@ -103,3 +103,5 @@ print(type_counts)
 
 # 5 x 5 크기의 플롯 만들기
 plt.figure(figsize=(5, 5))
+
+plt.pie(type_counts, labels=type_counts.index, autopct='')
