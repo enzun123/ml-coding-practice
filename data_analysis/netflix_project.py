@@ -29,4 +29,5 @@ for i in netflix.columns :
 # 결측치 비율 : country(9.44%)
 netflix['country'] = netflix('country').fillna('No Data')
 
-# .replace(np.man, 'b') : 
+# .replace(np.man, 'b') : 결측치를 문자열 바꾸기 함수를 통해 처리
+# 결측치 비율 : coun
