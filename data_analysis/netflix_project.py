@@ -199,4 +199,4 @@ from PIL import Image
 
 plt.figure(figsize=(15, 5))
 
-# 
+# wordcloud에서 작ㄷ
