@@ -40,4 +40,5 @@ netflix['cast'] = netflix['cast'].replace(np.nan, 'No Data')
 netflix.dropna(axis = 0, inplace=True)
 
 # .info() : 열에 대란 요약 정보 확인
-# 8807 rows(원본 데이터 행 개수) -17 rows(결측치 행) 
+# 8807 rows(원본 데이터 행 개수) -17 rows(결측치 행) = 8790 rows(결측치가 제거된 행 개수)
+netflix.info
