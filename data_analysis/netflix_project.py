@@ -220,4 +220,8 @@ plt.suptitle('Keywords in the description of Movies and TV shows',
 
 # 워드 클라우드 표시
 # plt.imshow( ) : array에 색을 채워서 이미지로 표시
-plt.im
+plt.imshow(wordcloud)
+
+# 촉 감추기
+plt.axis('off')
+plt.show()
