@@ -117,4 +117,5 @@ netflix.head(3)
 genres = netflix['listed_in'].str.split(', ', expand=True).stack().value_counts()
 genres
 
-# [1단계] l
+# [1단계] listed_in 열에 있는 장르를 쉼표료 분활하기
+# 예시) 인덱스 1의 
