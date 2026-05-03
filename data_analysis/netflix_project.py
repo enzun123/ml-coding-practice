@@ -140,4 +140,6 @@ plt.ylabel('Genre', fontsize=14)
 plt.grid(axis='x')
 plt.show()
 
-ne
+netflix[netflix['title'].str.contains('Squid Game', na=False, case=False)]
+
+# 출력할 최대 행 수를 None으로 설종
