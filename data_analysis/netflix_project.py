@@ -123,8 +123,7 @@ netflix['listed_in'].str.split(', ',expand=True)
 
 # [2단계] .stacl( )을 사용하면 여러 열로 구성한 데이터프레임을 1개의 열로 만들어 쌓음
 # 예시) 인덱스 1의 listed_in 열 값 : International TV Shows, TV Dramas, TV Mysteries
-genres = netflix['listed_in'].str.split(', ',expand=True).stack().value_counts()
-genres
+
 
 plt.figure(figsize=(12,6))
 
@@ -136,4 +135,4 @@ plt.ylabel('Genre', fontsize=14)
 plt.grid(axis='x')
 plt.show()
 
-nrt
+ne
