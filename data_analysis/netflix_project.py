@@ -202,5 +202,4 @@ plt.figure(figsize=(15, 5))
 # wordcloud에서 작동할 수 있도록 데이터프레임을 list로 1차 변환 시키고 str(문자열)로 2차 변환
 text = str(list(netflix['description']))
 
-# 워드 클라우드 색상맵 만들기
-cma
+# mask =
