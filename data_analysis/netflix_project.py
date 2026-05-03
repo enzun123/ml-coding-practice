@@ -197,4 +197,6 @@ plt.show
 from wordcloud import WordCloud
 from PIL import Image
 
-plt.figure(figsize=)
+plt.figure(figsize=(15, 5))
+
+# word
