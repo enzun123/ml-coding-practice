@@ -94,3 +94,5 @@ plt.title('Netflix brand palette', loc='left', fontfamily='serif', fontsize=15, 
 plt.show()
 
 netflix['title'].str.contains('Squid Game', na=False, case=False)
+
+# 오징어 게임을 검색한 조건을 넷플릭스 데이터의 넣어서 True인 가
