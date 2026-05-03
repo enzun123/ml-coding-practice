@@ -76,4 +76,8 @@ netflix.head(2)
 
 # 데이터 전처리 완료한 데이터셋 csv 파일로 저장 
 # index=False: 데이터 프레임의 인덱스 열을 포함하지 않겠다는 뜻
-netflix.to_csv('netflix_preproces')
+netflix.to_csv('netflix_preprocessed.csv', index=False)
+
+import numpy as np
+import pandas as pd
+import mat
