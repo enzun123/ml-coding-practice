@@ -108,7 +108,7 @@ plt.pie(type_counts, labels=type_counts.index, autopct='%0.f%%', startangle=100,
         explode=[0.05, 0.05], shadow=True, colors=['#b20710', '#221f1f'])
 
 plt.suptitle('Movie & TV Show distribution', fontfamily='serif', fontsize=15, fontweight='bold')
-plt.title('We see more movies than TV shows on Netfilx.', fontfamily='serif', fontsize=12)
+plt.title('We see more movies than TV shows on Netflix.', fontfamily='serif', fontsize=12)
 plt.show()
 
 netflix.head(3)
@@ -185,7 +185,7 @@ cmap = plt.matplotlib.colors.LinearSegmentedColormap.from_list('',['#221f1f','#b
 
 sns.heatmap(netflix_age_country_unstack, cmap = cmap, linewidths=2.5, annot=True, fmt='.0%')
 
-plt.suptitle('Target ages proportion of total content bt country',
+plt.suptitle('Target ages proportion of total content by country',
              fontweight='bold', fontfamily='serif', fontsize=15)
 plt.title('Here we see interesting differences between countries. Most shows in South Korea are targeted to adults, for instance.',
           fontsize=12, fontfamily='serif')
