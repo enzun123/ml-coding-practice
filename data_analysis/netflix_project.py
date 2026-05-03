@@ -35,7 +35,7 @@ netflix['director'] = netflix['director'].replace(np.nan, 'No Data')
 netflix['cast'] = netflix['cast'].replace(np.nan, 'No Data')
 
 # .dropna(axis = 0) : 결측치가 있는 행 전체 제거
-# 원복 객체를 수정하려면 inplace = True 옵션 추가
+# 원본 객체를 수정하려면 inplace = True 옵션 추가
 # 결측치 비율 : date_added(0.11%), rating(0.05%), duration(0.03%)
 netflix.dropna(axis = 0, inplace=True)
 
@@ -44,7 +44,7 @@ netflix.dropna(axis = 0, inplace=True)
 netflix.info()
 
 # 데이터프레임의 각 컬럼별 결측치 개수 반환
-# isna() = isnull() : 결측 값은 True 반환하고, 그 외에는 False 반환
+# isna() == isnull() : 결측 값은 True 반환하고, 그 외에는 False 반환
 netflix.isna().sum()
 
 # 시청 등급 기준표를 참고하여 Netflix의 rating 변수를 이용한 age_group_dic 변수 생성
