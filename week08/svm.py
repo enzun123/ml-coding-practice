@@ -11,4 +11,5 @@ iris = load_iris(as_frame=True)
 X = iris.data[["petal length (cm)", "petal width (cm)"]].values
 y = (iris.target == 2)  # Iris virginica
 
-sb
+svm_clf = make_pipeline(StandardScaler(),
+                        LinearSVC(C=1, dual=True,))
