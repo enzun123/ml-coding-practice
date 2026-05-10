@@ -95,4 +95,6 @@ X_new = np.linspace(0, 3, 100).reshape(100, 1)
 plt.figure(figsize=(6, 4))
 plt.plot(X, y, ".")
 plt.xlabel("$x_1$")
-plt.yl
+plt.ylabel("$y$  ", rotation=0)
+plt.axis([0, 3, 0, 3.5])
+plt
