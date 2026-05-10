@@ -66,4 +66,7 @@ print(X[0])
 print(X_poly[0])
 
 lin_reg = LinearRegression()
-lin_reg.fir(x)
+lin_reg.fir(X_poly, y)
+lin_reg.intercept_, lin_reg.coef_
+
+X_new
