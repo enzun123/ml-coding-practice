@@ -121,10 +121,12 @@ print(ridge_reg.predict([[1.5]]))
 
 from sklearn.linear_model import Lasso
 
-Lasso_reg = Lasso(alpha=0.1)
-Lasso_reg.fit(X, y)
+lasso_reg = Lasso(alpha=0.1)
+lasso_reg.fit(X, y)
 print(Lasso_reg.predict([[1.5]]))
 
 # 엘라스틱넷
 
-from sklearn.linear_model im
+from sklearn.linear_model import Lasso
+
+Lasso_reg
