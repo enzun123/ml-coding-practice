@@ -48,4 +48,4 @@ from sklearn.svm import LinearSVR
 # 이 세 줄은 간단한 선형 데이터셋을 생성합니다.
 np.random.seed(42)
 X = 2 * np.random.rand(50, 1)
-y = 4 + 3
+y = 4 + 3 * X[:, 0] + np.random
