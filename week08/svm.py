@@ -4,4 +4,8 @@
 import numpy as np
 from sklearn.datasets import load_iris
 from sklearn.pipeline import make_pipeline
-from sklearn.preprocessing import 
+from sklearn.preprocessing import StandardScaler
+from sklearn.svm import LinearSVC
+
+iris = load_iris(as_frame=True)
+D
