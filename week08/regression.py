@@ -34,3 +34,5 @@ X_new = np.array([[0], [2]])
 print(lin_reg.predict(X_new))
 
 # 화률적 경사 하강법
+
+from sklearn.linear_model import SGD
