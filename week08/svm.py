@@ -25,6 +25,9 @@ print(svm_clf.decision_function(X_new))
 from sklearn.datasets import make_moons
 from sklearn.preprocessing import PolynomialFeatures
 
-X, y = na(n_samples=100, noise=0.15, random_state=42)
+X, y = make_moons(n_samples=100, noise=0.15, random_state=42)
 
-Polynomial_svm_clf = make_moos
+Polynomial_svm_clf = make_pipeline(
+    PolynomialFeatures(degree=3),
+    StandardScaler()
+)
