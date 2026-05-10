@@ -46,4 +46,6 @@ sgd_reg.intercept_, sgd_reg.coef_
 # 다항 회귀
 
 np.random.seed(42)
-m =
+m = 100
+X = 6 * np.random.rand(m, 1) - 3
+y = 0.5 * CX
