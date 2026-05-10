@@ -21,4 +21,9 @@ plt.plot(X, y, "b.")
 plt.xlabel("$x_1$")
 plt.ylabel("$y$", rotation=0)
 plt.axis([0, 2, 0, 15])
-plt.g
+plt.grid()
+plt.show()
+
+from sklearn.linear_model import LinearRegression
+
+lin_refg
