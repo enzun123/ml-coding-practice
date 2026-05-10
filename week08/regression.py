@@ -121,4 +121,6 @@ print(ridge_reg.predict([[1.5]]))
 
 from sklearn.linear_model import Lasso
 
-Lasso_
+Lasso_reg = Lasso(alpha=0.1)
+Lasso_reg.fit(X, y)
+print
