@@ -140,4 +140,7 @@ iris = load_iris(as_frame=True)
 list(iris)
 
 print(iris.data.head(3))
-print(iris.target.head)
+print(iris.target.head(3))  # 샘플이 섞여 있지 않습니다.
+
+print(iris.target.head(3))
+
