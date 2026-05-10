@@ -54,4 +54,8 @@ plt.figure(figsize=(6, 4))
 plt.plot(X, y, "b.")
 plt.xlabel("$x_1$")
 plt.ylabel("$y$", rotation=0)
-plt
+plt.axis([-3, 3, 0, 10])
+plt.grid()
+plt.show()
+
+from sklearn.preprocessing
