@@ -1,2 +1,4 @@
 # -*- coding: utf-8 -*-
-import mat
+import matplotlib.pyplot as plt
+
+plt.rc('font')
