@@ -101,3 +101,5 @@ plt.grid()
 plt.show()
 
 from sklearn.linear_model import Ridge
+
+ridge_reg
