@@ -22,9 +22,9 @@ print(svm_clf.decision_function(X_new))
 
 # 비선형 SVM 분류
 
-from sklearn.datasets import make_blobs
+from sklearn.datasets import make_moos
 from sklearn.preprocessing import PolynomialFeatures
 
-X, y = make_blobs(n_samples=100, noise=0.15, random_state=42)
+X, y = make_moos(n_samples=100, noise=0.15, random_state=42)
 
-Polynomial_svm_clf = ma
+Polynomial_svm_clf = make_moos
