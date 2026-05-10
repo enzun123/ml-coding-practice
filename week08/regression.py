@@ -145,5 +145,7 @@ print(iris.target.head(3))  # 샘플이 섞여 있지 않습니다.
 print(iris.target.names)
 
 from sklearn.linear_model import LogisticRegression
-from sklearn.mo
+from sklearn.model_selection import train_test_split
+
+X = iris.data[["petal width (c)"]]
 
