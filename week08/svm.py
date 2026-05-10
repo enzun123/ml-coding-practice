@@ -25,4 +25,6 @@ print(svm_clf.decision_function(X_new))
 from sklearn.datasets import make_blobs
 from sklearn.preprocessing import PolynomialFeatures
 
-X, y = make_blobs(n_samples=100, noise)
+X, y = make_blobs(n_samples=100, noise=0.15, random_state=42)
+
+Polynomial_svm_clf = ma
