@@ -70,4 +70,5 @@ lin_reg.fir(X_poly, y)
 lin_reg.intercept_, lin_reg.coef_
 
 X_new = np.linspace(-3, 3, 100).reshape(100, 1)
-X_new+X_poly
+X_new_poly = poly_features.transform(X_new)
+y_new = lin_reg.predict
