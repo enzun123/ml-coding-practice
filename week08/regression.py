@@ -52,4 +52,6 @@ y = 0.5 * X ** 2 + X + 2 + np.random(m, 1)
 
 plt.figure(figsize=(6, 4))
 plt.plot(X, y, "b.")
-plt.xlabel("$")
+plt.xlabel("$x_1$")
+plt.ylabel("$y$", rotation=0)
+plt
