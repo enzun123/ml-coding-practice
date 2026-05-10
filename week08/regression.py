@@ -5,7 +5,7 @@ plt.rc('font', size=14)
 plt.rc('axes', labelsize=14, titlesize=14)
 plt.rc('legend', fontsize=14)
 plt.rc('xtick', labelsize=10)
-plt.rc('ystick', labelsize=10)
+plt.rc('ytick', labelsize=10)
 
 import numpy as np
 
@@ -33,7 +33,7 @@ lin_reg.intercept_, lin_reg.coef_
 X_new = np.array([[0], [2]])
 print(lin_reg.predict(X_new))
 
-# 화률적 경사 하강법
+# 확률적 경사 하강법
 
 from sklearn.linear_model import SGDRegressor
 
