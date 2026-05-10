@@ -166,4 +166,4 @@ softmax_reg = LogisticRegression(C=30, random_state=42)
 softmax_reg.fit(X_train, y_train)
 
 print(softmax_reg.predict([[5, 2]]))
-print(softmax_reg.predict_proba([[5, 2]])).round(2)
+print(softmax_reg.predict_proba([[5, 2]]).round(2))
