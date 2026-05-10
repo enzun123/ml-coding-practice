@@ -37,7 +37,7 @@ print(lin_reg.predict(X_new))
 
 from sklearn.linear_model import SGDRegressor
 
-sgd_reg = SGDRegressor()
+sgd_reg = SGDRegressor(max_iter=1000, tol=1e-5, penalty=None, eta0=0.01)
 sgd_reg.fit(X, y.ravel())   # fit()이 1D 타깃을 기대하기 때문에 y.ravel()로 씁니다
 
 sgd_reg.intercept_, sgd_reg.coef_
