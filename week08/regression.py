@@ -48,7 +48,7 @@ sgd_reg.intercept_, sgd_reg.coef_
 np.random.seed(42)
 m = 100
 X = 6 * np.random.rand(m, 1) - 3
-y = 0.5 * X ** 2 + X + 2 + np.random(m, 1)
+y = 0.5 * X ** 2 + X + 2 + np.random.randn(m, 1)
 
 plt.figure(figsize=(6, 4))
 plt.plot(X, y, "b.")
