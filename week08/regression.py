@@ -62,4 +62,8 @@ from sklearn.preprocessing import PolynomialFeatures
 
 poly_features = PolynomialFeatures(degree=2, include_bias=False)
 X_poly = poly_features.fit_transform(X)
-print()
+print(X[0])
+print(X_poly[0])
+
+lin_reg = LinearRegression()
+lin_reg.fir(x)
