@@ -23,4 +23,6 @@ print(svm_clf.decision_function(X_new))
 # 비선형 SVM 분류
 
 from sklearn.datasets import make_blobs
-from sklearn.preprocessing import 
+from sklearn.preprocessing import PolynomialFeatures
+
+X, y = make_blobs(n_samples=100, noise)
