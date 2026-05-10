@@ -97,4 +97,7 @@ plt.plot(X, y, ".")
 plt.xlabel("$x_1$")
 plt.ylabel("$y$  ", rotation=0)
 plt.axis([0, 3, 0, 3.5])
-plt
+plt.grid()
+plt.show()
+
+from sklearn.linear_model import Ridge
