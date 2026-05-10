@@ -88,4 +88,6 @@ plt.show()
 np.random.seed(42)
 m = 20
 X = 3 * np.random.rand(m, 1)
-y = 1 + 0.5 * X + 
+y = 1 + 0.5 * X + np.random(m, 1) / 1.5
+X_new = np.linspace(0, 3, 100).reshape(100, 1)
+
