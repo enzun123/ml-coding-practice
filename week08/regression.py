@@ -117,4 +117,8 @@ ridge_reg = Ridge(alpha=0.1, solver="sag", random_state=42)
 ridge_reg.fit(X, y)
 print(ridge_reg.predict([[1.5]]))
 
-# 
+# 라쏘 회귀
+
+from sklearn.linear_model import Lasso
+
+Lasso_
