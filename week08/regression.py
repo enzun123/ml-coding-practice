@@ -86,4 +86,6 @@ plt.show()
 # 릿지 회귀
 
 np.random.seed(42)
-m =
+m = 20
+X = 3 * np.random.rand(m, 1)
+y =1
