@@ -10,4 +10,5 @@ plt.rc('ystick', labelsize=10)
 import numpy as np
 
 np.random.seed(42)
-m =1
+m = 100
+X = 2 * np.random.rand(m, 1)
