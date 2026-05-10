@@ -26,4 +26,6 @@ plt.show()
 
 from sklearn.linear_model import LinearRegression
 
-lin_refg
+lin_reg = LinearRegression()
+lin_reg.fit(X, y)
+lin_reg.intercept_, l
