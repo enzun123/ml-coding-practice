@@ -35,4 +35,6 @@ print(lin_reg.predict(X_new))
 
 # 화률적 경사 하강법
 
-from sklearn.linear_model import SGD
+from sklearn.linear_model import SGDRegressor
+
+sgd_reg = SGDRegressor(penalty="l2")
