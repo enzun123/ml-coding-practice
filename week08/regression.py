@@ -19,4 +19,6 @@ import matplotlib.pyplot as plt
 plt.figure(figsize=(6, 4))
 plt.plot(X, y, "b.")
 plt.xlabel("$x_1$")
-plt.ylabel("$y$")
+plt.ylabel("$y$", rotation=0)
+plt.axis([0, 2, 0, 15])
+plt.g
