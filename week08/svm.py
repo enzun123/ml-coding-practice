@@ -8,4 +8,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.svm import LinearSVC
 
 iris = load_iris(as_frame=True)
-X = iris.data[["petal length (cm)", "petal width (cm)"]]
+X = iris.data[["petal length (cm)", "petal width (cm)"]].values
+y = (iris.target == 2)  # Iris virginica
+
+sb
